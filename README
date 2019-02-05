@@ -26,3 +26,8 @@ Texmaker
 Unix
    cd ./latex
    pdflatex -synctex=1 -interaction=nonstopmode mi1.tex
+
+
+## License
+
+The content of the lecture notes itself is licensed under the [Creative Commons license](https://creativecommons.org/licenses/by-nc-sa/1.0/), and the underlying source code used to generate, format and display that content is licensed under the [BSD 2-clause license](LICENSE).
