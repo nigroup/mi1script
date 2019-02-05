@@ -1,0 +1,101 @@
+\subsection{Probability Distribution}
+Evaluation of the Integral:
+\begin{equation} 
+	\begin{array}{ll}
+	P(y|\vec{x};Y,X) & 
+		\sim \int \exp \big(-\beta \mathrm{e}_{(y,
+			\vec{x};\vec{w})}\big)
+			\exp \big(-\beta R_{(\vec{w};Y,X)}
+			\big) \\\\
+	&	\sim \exp \big(-\beta \mathrm{e}_{(y,
+			\vec{x};\vec{w}^*)}\big)
+			\int d \vec{w} \Big\{
+				-\beta \sum_i \frac{\partial \mathrm{e}_i^T}{
+					\partial \mathrm{w}_i} 
+				\underbrace{\Big|_{\vec{w}^*}}_{
+					\coloneqq f_i}
+				(\mathrm{w}_i - \mathrm{w}_i^*) - 
+				\frac{\beta}{2} \sum_{i,j} 
+					(\mathrm{w}_i - \mathrm{w}_i^*)
+				H_{ij} (\mathrm{w}_j - \mathrm{w}_j^*)
+			\Big\}\\\\
+	&	\uparrow \text{all terms independent of } y \text{ we
+			absorbed into the prefactor} \\	
+	&	\text{(this includes the term }
+			\exp \big( -\beta 
+				R_{(\vec{w}^*;Y,X)} \big)
+			\text{ )}
+	\end{array}
+\end{equation}
+transformation into the eigenbasis of $\underline{H}$:
+\[ \vec{w} = \underline{S} \hat{\vec{w}}
+	\text{, } \underline{S} \text{ orthonormal transformation (because }
+	\underline{H} \text{ positive definite)}
+\]
+\[ \underline{F} = \underline{S}^T \underline{f} \text{ and }
+	\underline{\Lambda} = \underline{S}^T \underline{H} \underline{S} 
+	\text{ (diagonal matrix)}
+\]
+\begin{equation}
+	\begin{array}{ll}
+	I & \coloneqq \int d \vec{w} \exp \Big\{ -\beta 
+		\sum_i f_i (\mathrm{w}_i - \mathrm{w}_i^*) 
+		-\frac{\beta}{2} \sum_{i,j} (\mathrm{w}_i - \mathrm{w}_i^*)
+		H_{ij} (\mathrm{w}_j - \mathrm{w}_j^*) \Big\} \\\\
+	& = \int d \hat{\vec{w}} \exp \Big\{ -\beta 
+		\sum_i F_i (\hat{\mathrm{w}}_i - \hat{\mathrm{w}}_i^*)
+		-\frac{\beta}{2} \sum_i \Lambda_{ii} 
+		(\hat{\mathrm{w}}_i - \hat{\mathrm{w}}_i^*)^2
+		\Big\}
+	\end{array}
+\end{equation}
+transformation into difference coordinates:
+\[ \tilde{\vec{w}} \coloneqq \hat{\vec{w}}
+	- \hat{\vec{w}}^*
+\]
+\begin{equation}
+	I = \prod_i \int d \tilde{\mathrm{w}}_i \exp \Big\{
+		-\beta F_i \tilde{\mathrm{w}}_i 
+		-\frac{\beta}{2} \Lambda_{ii} \tilde{\mathrm{w}}_i^2
+		\Big\}
+\end{equation}
+using: 
+\begin{equation}
+	\begin{array}{ll}
+	\frac{\beta}{2} \Lambda_{ii} \Big( \tilde{\mathrm{w}}_i^2 
+		+ 2 \frac{F_i}{\Lambda_{ii}} \tilde{\mathrm{w}}_i
+		\Big)
+	& = \frac{\beta}{2} \Lambda_{ii} \Bigg\{ \Big( \tilde{\mathrm{w}}_i 
+		+ \frac{F_i}{\Lambda_{ii}} \Big)^2 
+		- \frac{F_i^2}{\Lambda_{ii}^2}
+		\Bigg\} \\\\
+	& = - \frac{\beta}{2} \frac{F_i^2}{\Lambda_{ii}^2} 
+		+ \frac{\beta}{2} \Lambda_{ii} \Big( \tilde{\mathrm{w}}_i 
+		+ \frac{F_i}{\Lambda_{ii}} \Big)^2
+	\end{array} 
+\end{equation}
+we obtain:
+\begin{equation}
+	\begin{array}{llr}
+	I & \sim \prod_i \exp \Big( \frac{\beta}{2} \frac{F_i^2}{\Lambda_{ii}^2}
+		\Big) &\\\\
+	& = \exp \Big\{ \frac{\beta}{2} \sum_i 
+		\underbrace{ F_i \Lambda_{ii}^{-1} F_i }_{\text{insert }
+			\underline{S}^T \underline{S} \text{ for back-transfer}}
+		\Big\} & \text{note: } \underline{S}^T \underline{S} 
+			\eqexcl \underline{1} \\\\
+	& \sim \exp \Big\{ \frac{\beta}{2} \underline{f}^T \underline{H}^{-1}
+		\underline{f} \Big\} &
+	\end{array}
+\end{equation}
+inserting back into the distribution:
+\begin{equation}
+	P(y|\vec{x};Y,X) 
+		\sim \exp \Big\{ \frac{\beta}{2} 
+		\underline{f}^T \underline{H}^{-1} 
+		\underbrace{\underline{f}}_{ 
+			\frac{\partial \mathrm{e}}{\partial 
+				\vec{w}} }
+		-\beta \mathrm{e}
+		\Big\}
+\end{equation}

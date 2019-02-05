@@ -1,0 +1,65 @@
+\subsection{Number of linearly separable assignments}
+\bf\underline{Proof by induction:}\rm\\\\
+\underline{induction start:} $p = 1$
+\begin{equation}
+	C_{(1,N)} = 2\sum_{k=0}^{N-1} \rmat{0\\k} = 
+		\left\{ \begin{array}{ll}
+			2 & \textrm{for } N \geq 1\\
+			0 & \textrm{else}
+		\end{array}\right.
+\end{equation}
+\underline{induction hypothesis:}\\
+The number of linearly separable assignments of labels $(y^{(1)}, \ldots, y^{(p)})$ to $p$ data points $(\underline{x}^{(1)}, \ldots, \underline{x}^{(p)})$ in general location is $C_{(P, N)}$ for all $N$.\\\\
+\underline{induction step:}\\
+Let $\underline{x}^{(P + 1)}$ be a new data point in arbitrary location. The label assignment $(y^{(1)}, \ldots, y^{(p + 1)})$ is linearly separable for \underline{either} $y^{(p + 1)} = +1$ \underline{or} $y^{(p + 1)} = -1$.\\
+$\Rightarrow C_{(P, N)}$ linearly separable assignments\\\\
+\underline{proof:}\\
+This follows from the fact that every separating hyperplane uniquely assigns a label to a data point and from the induction hypothesis.\\\\
+The label assignment $(y^{(1)}, \ldots, y^{(p)})$ is linearly separable for $y^{(p + 1)} = +1$ \underline{and} $y^{(p + 1)} = -1$, if and only if the label assignment $(y^{(1)}, \ldots, y^{(p)})$ is linearly separable using a $N-1$ dimensional hyperplane through $\underline{x}^{(p + 1)}$.\\
+$\Rightarrow C_{(P, N-1)}$ 'ambiguous' linearly separable assignments\\\\
+\underline{proof:}\\\\
+\textcircled{1}\\
+$\vec{w}_{(+1)}$: weight vector for a separating hyperplane with $y^{(p + 1)} = +1$.\\
+$\vec{w}_{(-1)}$: weight vector for a separating hyperplane with $y^{(p + 1)} = -1$.\\\\
+The hyperplane with weight vector:
+\begin{equation}
+	\vec{w}^* \coloneqq 
+		\Big(\vec{w}_{(+1)}^T \underline{x}^{(p + 1)}
+		\Big)\vec{w}_{(-1)} - 
+		\Big(\vec{w}_{(-1)}^T \underline{x}^{(p + 1)}
+		\Big)\vec{w}_{(+1)}
+\end{equation}
+passes through $\underline{x}^{(p + 1)}$ and linearly separates $(y^{(1)}, \ldots, y^{(p)})$ because:
+\begin{equation}
+	\Big(\vec{w}_{(+1)}^T \underline{x}^{(p + 1)}\Big)
+	\Big(\vec{w}_{(-1)}^T \underline{x}\Big) -
+	\Big(\vec{w}_{(-1)}^T \underline{x}^{(p + 1)}\Big)
+	\Big(\vec{w}_{(+1)}^T \underline{x}\Big)
+\end{equation}
+has the same sign as $\vec{w}_{(-1)}^T \underline{x}$ and $\vec{w}_{(+1)}^T \underline{x}$ for all $\underline{x}$.\\\\
+\textcircled{2}\\
+Let $\mathbf{ \underline{w}^* }$ be the weight vector of a hyperplane with
+\begin{equation}
+	\big(\mathbf{ \underline{w}^* }\big)^T \underline{x}^{(p + 1)} = 0
+\end{equation}
+From the fact, that all data points are at general locations it follows, that there exists an $\varepsilon > 0$, such that hyperplanes with weight vectors
+\begin{equation}
+	\left.\begin{array}{ll}
+	\vec{w}^* + \varepsilon \underline{x}^{(p + 1)}\\
+	\vec{w}^* - \varepsilon \underline{x}^{(p + 1)}
+	\end{array}\right\} 
+	\textrm{both linearly separate the assignments } 
+		(y_{(1)}, \ldots, y_{(p)})
+\end{equation}
+\textcircled{3}\\
+The number of 'ambiguous' linearly separable assignments follows from the induction hypothesis.\\
+The number of linearly separable assignments of labels $(y^{(1)}, \ldots, y^{(p + 1)})$ to the $p + 1$ data points $\underline{x}^{(1)}, \ldots, \underline{x}^{(p + 1)}$ at general locations is: $C_{(p + 1, N)}$\\\\
+\underline{proof:}\\
+additivity theorem of binominal coefficients (cf. Pascal's triangle).
+\begin{equation}
+	\rmat{\gamma\\q} + \rmat{\gamma\\q-1} = \rmat{\gamma+1\\q}
+\end{equation}
+therefore
+\begin{equation}
+	C_{(p, N)} + C_{(p, N - 1)} = C_{(p + 1, N)}
+\end{equation}

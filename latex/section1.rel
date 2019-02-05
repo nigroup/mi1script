@@ -1,0 +1,205 @@
+;; RefTeX parse info file
+;; File: /home/timm/output/teaching/MI1/scriptMI1beta/section1.tex
+;; User: timm (timm)
+
+(set reftex-docstruct-symbol '(
+
+
+(xr nil "\\\\\\\\\\\\")
+
+(index-tags)
+
+(is-multi nil)
+
+(bibview-cache)
+
+(master-dir . "/home/timm/output/teaching/MI1/scriptMI1beta/")
+
+(label-numbers)
+
+(bof "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex")
+
+(toc "toc" "    1 Artificial Neural Networks \\& Empirical Risk Minimization" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 2 "1" "\\section{Artificial Neural Networks \\& Empirical Risk Minimization}" 1)
+
+(toc "toc" "      1.1 General Comments" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 3 "1.1" "\\subsection{General Comments}" 151)
+
+(toc "toc" "          1.1.0.1 Observation:" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.1.0.1" "\\paragraph{Observation:}" 182)
+
+("sec:observation" "s" nil "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil "")
+
+(toc "toc" "          1.1.0.1 Observation:" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.1.0.1" "\\paragraph{Observation:}" 182)
+
+(toc "toc" "          1.1.0.2 Properties of Artificial Neural Networks (ANN)" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.1.0.2" "\\paragraph{Properties of Artificial Neural Networks (ANN)}" 509)
+
+(toc "toc" "          1.1.0.3 Architecture of ANNs" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.1.0.3" "\\paragraph{Architecture of ANNs}" 781)
+
+("fig:graphStructure" "f" "Graph structure with multiple connected computational units: rich dynamics and powerful pattern reco" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil)
+
+(toc "toc" "          1.1.0.4 Inductive learning (Learning from observations)" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.1.0.4" "\\paragraph{Inductive learning (Learning from observations)}" 1685)
+
+(toc "toc" "          1.1.0.5 Learning paradigms for ANNs" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.1.0.5" "\\paragraph{Learning paradigms for ANNs}" 2012)
+
+("fig:reinforcementLearning" "f" "Schematic illustration of reinforcement learning" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil)
+
+(toc "toc" "      1.2 Connectionist Neurons" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 3 "1.2" "\\subsection{Connectionist Neurons}" 3929)
+
+(toc "toc" "        1.2.1 Input-Output Relationship" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 4 "1.2.1" "\\subsubsection{Input-Output Relationship}" 4185)
+
+("$w_{ij" "f" "NO MATCH FOR CONTEXT REGEXP" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil)
+
+("fig:connectionistNeuron" "f" "Input-output function for the connectionist neuron.(\\emph{cf.:} rate neurons, mean-field approximati" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil)
+
+(toc "toc" "          1.2.1.1 Typical transfer functions" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.2.1.1" "\\paragraph{Typical transfer functions}" 5795)
+
+(toc "toc" "          1.2.1.2 Shortcut notation for neurons with thresholds:" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.2.1.2" "\\paragraph{Shortcut notation for neurons with thresholds:}" 7263)
+
+("$w_{ij" "f" "NO MATCH FOR CONTEXT REGEXP" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil)
+
+(toc "toc" "        1.2.2 Feature Detection and Evaluation" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 4 "1.2.2" "\\subsubsection{Feature Detection and Evaluation}" 8867)
+
+(toc "toc" "          1.2.2.1 Evaluation of filter output:" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.2.2.1" "\\paragraph{Evaluation of filter output:}" 9863)
+
+("sec:eval-filt-outp" "s" "Assume a sample of data (black points) corresponding to size ($x_1$) and weight ($x_2$) of apples an" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil)
+
+(toc "toc" "        1.2.3 Special Transfer Functions" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 4 "1.2.3" "\\subsubsection{Special Transfer Functions}" 10645)
+
+(toc "toc" "      1.3 Multilayer Perceptron" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 3 "1.3" "\\subsection{Multilayer Perceptron}" 11749)
+
+(toc "toc" "        1.3.1 Classes of Neural Networks" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 4 "1.3.1" "\\subsubsection{Classes of Neural Networks}" 11866)
+
+(toc "toc" "          1.3.1.1 Recurrent networks $\\corresponds$ directed graphs containing cycles" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.3.1.1" "\\paragraph{Recurrent networks $\\corresponds$ directed graphs containing cycles}" 12283)
+
+(toc "toc" "          1.3.1.2 Feedforward networks $\\corresponds$ directed acyclic graphs" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.3.1.2" "\\paragraph{Feedforward networks $\\corresponds$ directed acyclic graphs}" 13111)
+
+(toc "toc" "          1.3.1.3 Prediction of attributes:" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.3.1.3" "\\paragraph{Prediction of attributes:}" 13707)
+
+(toc "toc" "        1.3.2 The Multilayer-Perceptron for Regression" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 4 "1.3.2" "\\subsubsection{The Multilayer-Perceptron for Regression}" 14923)
+
+("fig:MLP" "f" "Architecture of the MultiLayer Perceptron" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil)
+
+(toc "toc" "          1.3.2.1 MLP parameters" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.3.2.1" "\\paragraph{MLP parameters}" 16249)
+
+(toc "toc" "          1.3.2.2 Visualization of weights and thresholds" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.3.2.2" "\\paragraph{Visualization of weights and thresholds}" 16655)
+
+(toc "toc" "          1.3.2.3 MLPs are universal function approximators:" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.3.2.3" "\\paragraph{MLPs are universal function approximators:}" 17339)
+
+(toc "toc" "        1.3.3 Performance Measures and Model Selection" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 4 "1.3.3" "\\subsubsection{Performance Measures and Model
+  Selection}" 18621)
+
+("sec:perf-meas-model" "s" "\\textbf{Remark:} For both regression and classification problems, the goal is to find a model that p" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil)
+
+(toc "toc" "          1.3.3.1 Prediction of attributes" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.3.3.1" "\\paragraph{Prediction of attributes}" 19104)
+
+(toc "toc" "          1.3.3.2 Error measure (individual cost / individual loss):" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.3.3.2" "\\paragraph{Error measure (individual cost / individual loss):}" 19535)
+
+(toc "toc" "          1.3.3.3 Performance measure:" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.3.3.3" "\\paragraph{Performance measure:}" 20271)
+
+(toc "toc" "          1.3.3.4 Inductive learning through \\underline{e}mpirical \\underline{r}isk \\underline{m}inimization (ERM)" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.3.3.4" "\\paragraph{Inductive learning through \\underline{e}mpirical \\underline{r}isk \\underline{m}inimization (ERM)}" 21172)
+
+(toc "toc" "        1.3.4 Optimization of Model Parameters: Gradient Descent" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 4 "1.3.4" "\\subsubsection{Optimization of Model Parameters: Gradient Descent}" 22250)
+
+(toc "toc" "          1.3.4.1 Gradient Descent" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.3.4.1" "\\paragraph{Gradient Descent}" 22859)
+
+(toc "toc" "          1.3.4.2 Calculation of the gradient:" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.3.4.2" "\\paragraph{Calculation of the gradient:}" 23566)
+
+("eq:gradientMLP" "e" "\\frac{\\partial e_{[\\vec{w}]}^{(\\alpha)}}{\\partial \\mathrm{w}_{ij}^{v'v}} = \\underbrace{ \\frac{\\parti" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil)
+
+(toc "toc" "          1.3.4.3 Problems of the gradient descent method" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.3.4.3" "\\paragraph{Problems of the gradient descent method}" 24437)
+
+(toc "toc" "        1.3.5 The Backpropagation Method" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 4 "1.3.5" "\\subsubsection{The Backpropagation Method}" 24792)
+
+(toc "toc" "        1.3.6 Summary of the Gradient Descent Method" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 4 "1.3.6" "\\subsubsection{Summary of the Gradient Descent Method}" 27031)
+
+(toc "toc" "        1.3.7 Validation of Model Selection Results" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 4 "1.3.7" "\\subsubsection{Validation of Model Selection Results}" 27786)
+
+(toc "toc" "          1.3.7.1 Test Set Method:" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.3.7.1" "\\paragraph{Test Set Method:}" 27907)
+
+(toc "toc" "          1.3.7.2 Resampling methods: N-Fold Cross-Validation" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.3.7.2" "\\paragraph{Resampling methods: N-Fold Cross-Validation}" 28819)
+
+("fig:crossvalidation" "f" "Crossvalidation" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil)
+
+(toc "toc" "      1.4 Additional Topics" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 3 "1.4" "\\subsection{Additional Topics}" 30468)
+
+(toc "toc" "        1.4.1 Stochastic Approximation and On-line Learning" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 4 "1.4.1" "\\subsubsection{Stochastic Approximation and On-line Learning}" 30581)
+
+(toc "toc" "        1.4.2 Improved Gradient Descent Optimization" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 4 "1.4.2" "\\subsubsection{Improved Gradient Descent Optimization}" 32752)
+
+(toc "toc" "        1.4.3 The Conjugate Gradient Method" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 4 "1.4.3" "\\subsubsection{The Conjugate Gradient Method}" 33864)
+
+(toc "toc" "          1.4.3.1 Line search method" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.4.3.1" "\\paragraph{Line search method}" 34230)
+
+("fig:linesearch" "f" "linesearch" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil)
+
+(toc "toc" "          1.4.3.2 The conjugate direction" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.4.3.2" "\\paragraph{The conjugate direction}" 35271)
+
+(toc "toc" "          1.4.3.3 Definition of conjugate direction $\\vec{d}_{t+1}:$" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.4.3.3" "\\paragraph{Definition of conjugate direction $\\vec{d}_{t+1}:$}" 35502)
+
+(toc "toc" "          1.4.3.4 Remark:" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.4.3.4" "\\paragraph{Remark:}" 36614)
+
+(toc "toc" "        1.4.4 Overfitting and Underfitting" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 4 "1.4.4" "\\subsubsection{Overfitting and Underfitting}" 37006)
+
+(toc "toc" "        1.4.5 Bias and Variance" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 4 "1.4.5" "\\subsubsection{Bias and Variance}" 38730)
+
+(toc "toc" "          1.4.5.1 Example scenario:" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.4.5.1" "\\paragraph{Example scenario:}" 39215)
+
+("fig:bias-variance" "f" "Illustration of the bias-variance decomposition: different datasets result in different estimates ($" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil)
+
+(toc "toc" "          1.4.5.2 Bias-variance trade-off:" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.4.5.2" "\\paragraph{Bias-variance trade-off:}" 41580)
+
+("fig:bias-variance-tradeoff" "f" "Illustration of the bias-variance trade-off. Underfitting typically occurs when bias dominates the t" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil)
+
+(toc "toc" "          1.4.5.3 Examples for model classes of different complexity" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.4.5.3" "\\paragraph{Examples for model classes of different complexity}" 42414)
+
+(toc "toc" "          1.4.5.4 Relation to generalization performance" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.4.5.4" "\\paragraph{Relation to generalization performance}" 42648)
+
+(toc "toc" "        1.4.6 Regularization" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 4 "1.4.6" "\\subsubsection{Regularization}" 43628)
+
+(toc "toc" "          1.4.6.1 Example I: inclusion unspecific knowledge:" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.4.6.1" "\\paragraph{Example I: inclusion unspecific knowledge:}" 44380)
+
+("fig:weight-shrinkage" "f" "weight decay" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil)
+
+(toc "toc" "          1.4.6.2 Example II: inclusion of specific knowledge:" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.4.6.2" "\\paragraph{Example II: inclusion of specific knowledge:}" 46016)
+
+(toc "toc" "          1.4.6.3 Choice of regularization parameter" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.4.6.3" "\\paragraph{Choice of regularization parameter}" 46960)
+
+(toc "toc" "          1.4.6.4 Nested n-fold cross-validation" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.4.6.4" "\\paragraph{Nested n-fold cross-validation}" 47772)
+
+(toc "toc" "          1.4.6.5 Estimation of generalization performance" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.4.6.5" "\\paragraph{Estimation of generalization performance}" 48060)
+
+(toc "toc" "          1.4.6.6 Remarks:" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.4.6.6" "\\paragraph{Remarks:}" 49319)
+
+(toc "toc" "        1.4.7 Classification Problems" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 4 "1.4.7" "\\subsubsection{Classification Problems}" 49829)
+
+("sec:class-problems" "s" "\\textbf{Remark:} In the simplest case, the classification problem is binary such that the target cla" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil)
+
+(toc "toc" "      1.5 Radial Basis Function Networks" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 3 "1.5" "\\subsection{Radial Basis Function Networks}" 55414)
+
+(toc "toc" "        1.5.1 Network Architecture" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 4 "1.5.1" "\\subsubsection{Network Architecture}" 55539)
+
+(toc "toc" "          1.5.1.1 Differences MLP $\\leftrightarrow$ RBF" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.5.1.1" "\\paragraph{Differences MLP $\\leftrightarrow$ RBF}" 56294)
+
+(toc "toc" "        1.5.2 Model Selection - Learning" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 4 "1.5.2" "\\subsubsection{Model Selection - Learning}" 57701)
+
+("sec:model-select-learn" "s" "We assume real-valued attributes: \\[ \\Big\\{ \\Big( \\vec{x}^{(\\alpha)}, y_T^{(\\alpha)} \\Big) \\Big\\}, \\" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil)
+
+(toc "toc" "          1.5.2.1 Model class" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.5.2.1" "\\paragraph{Model class}" 58026)
+
+(toc "toc" "          1.5.2.2 Learning via the two-step procedure:" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.5.2.2" "\\paragraph{Learning via the two-step procedure:}" 59657)
+
+("alg:kmeans" "i" "K-means clustering of centroids $\\vec{t}_i$ using algorithm (\\ref{alg:kmeans})\\footnote{for details," "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil)
+
+("$w_{j" "f" "NO MATCH FOR CONTEXT REGEXP" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil)
+
+("eq:ginv" "e" "\\underbrace{\\big( \\vec{\\phi}^T \\vec{\\phi} \\big)}_{\\text{known}} \\vec{w} = \\underbrace{\\vec{\\phi}^T \\" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil)
+
+(toc "toc" "          1.5.2.3 Remarks" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.5.2.3" "\\paragraph{Remarks}" 63396)
+
+(toc "toc" "        1.5.3 RBF-networks and Function Regularization" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 4 "1.5.3" "\\subsubsection{RBF-networks and Function Regularization}" 64274)
+
+(toc "toc" "          1.5.3.1 Regularization: making the learning problem well-posed" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.5.3.1" "\\paragraph{Regularization: making the learning problem well-posed}" 65065)
+
+(toc "toc" "          1.5.3.2 Example:" "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex" nil 5 "1.5.3.2" "\\paragraph{Example:}" 67431)
+
+(eof "/home/timm/output/teaching/MI1/scriptMI1beta/section1.tex")
+))
+

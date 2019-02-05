@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg8488"
+   sodipodi:version="0.32"
+   inkscape:version="0.44"
+   sodipodi:docbase="/home/schmu20mol/TU-Berlin/job/script/MI1/figures/svg"
+   sodipodi:docname="section2_fig13.svg">
+  <defs
+     id="defs8490">
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;">
+      <path
+         id="path4806"
+         style="font-size:12.0;fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;">
+      <path
+         id="path4818"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path4824"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.5714906"
+     inkscape:cx="484.83885"
+     inkscape:cy="827.26742"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1398"
+     inkscape:window-height="975"
+     inkscape:window-x="0"
+     inkscape:window-y="25" />
+  <metadata
+     id="metadata8493">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:white;fill-opacity:1;stroke:black;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 401.71552,134.95916 L 406.9317,127.71437 L 416.60957,133.48428 C 415.81123,136.43226 413.35746,138.79458 410.15031,139.3167 C 406.60608,139.8937 403.24516,138.04321 401.72053,134.99 C 401.71619,134.98129 401.71984,134.96789 401.71552,134.95916 z "
+       id="path11839" />
+    <path
+       sodipodi:type="arc"
+       style="fill:black;fill-opacity:1;stroke:black;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path11847"
+       sodipodi:cx="156.3528"
+       sodipodi:cy="128.77675"
+       sodipodi:rx="1.8086283"
+       sodipodi:ry="1.8086283"
+       d="M 158.16143 128.77675 A 1.8086283 1.8086283 0 1 1  154.54417,128.77675 A 1.8086283 1.8086283 0 1 1  158.16143 128.77675 z"
+       transform="matrix(0.205125,0.978735,0.978735,-0.205125,251.2294,6.302944)" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 258.14822,314.00813 C 589.42806,314.00813 589.42806,314.00813 589.42806,314.00813"
+       id="path12056" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:1.18433654px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-opacity:1"
+       d="M 286.23063,342.14726 C 286.23063,82.434573 286.23063,82.434573 286.23063,82.434573"
+       id="path12058" />
+    <image
+       y="240.35994"
+       x="540.4588"
+       id="image12877"
+       height="25.743971"
+       width="23.505363"
+       sodipodi:absref="/home/schmu20mol/TU-Berlin/job/script/MI1/figures/png/standards/vecX.png"
+       xlink:href="/home/schmu20mol/TU-Berlin/job/script/MI1/figures/png/standards/vecX.png" />
+    <image
+       y="138.64326"
+       x="344.82465"
+       id="image5819"
+       height="21.016764"
+       width="14.511576"
+       sodipodi:absref="/home/schmu20mol/TU-Berlin/job/script/MI1/figures/png/standards/d.png"
+       xlink:href="/home/schmu20mol/TU-Berlin/job/script/MI1/figures/png/standards/d.png" />
+    <image
+       y="107.87476"
+       x="406.13876"
+       id="image5907"
+       height="19.515566"
+       width="24.519556"
+       sodipodi:absref="/home/schmu20mol/TU-Berlin/job/script/MI1/figures/png/standards/vecW.png"
+       xlink:href="/home/schmu20mol/TU-Berlin/job/script/MI1/figures/png/standards/vecW.png" />
+    <image
+       y="120.05052"
+       x="523.77875"
+       id="image6010"
+       height="29.749468"
+       width="72.186203"
+       sodipodi:absref="/home/schmu20mol/TU-Berlin/job/script/MI1/figures/png/section2_fig13_00.png"
+       xlink:href="/home/schmu20mol/TU-Berlin/job/script/MI1/figures/png/section2_fig13_00.png" />
+    <image
+       y="337.85663"
+       x="368.27939"
+       id="image6128"
+       height="17.052826"
+       width="154.81291"
+       sodipodi:absref="/home/schmu20mol/TU-Berlin/job/script/MI1/figures/png/section2_fig3_01.png"
+       xlink:href="/home/schmu20mol/TU-Berlin/job/script/MI1/figures/png/section2_fig3_01.png" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="M 286.21532,313.88 C 538.20924,252.82591 538.20924,252.82591 538.20924,252.82591"
+       id="path6131" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="M 286.21532,313.88 C 405.99021,127.99559 405.99021,127.99559 405.99021,127.99559"
+       id="path7018" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 265.21582,139.66198 C 551.04226,357.4345 551.04226,357.4345 551.04226,357.4345"
+       id="path7905" />
+    <path
+       style="font-size:63.74376297px;font-style:normal;font-weight:normal;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       d="M 355.6204,207.27192 C 347.69517,205.01203 342.11656,197.34954 347.3325,190.30834 C 350.60312,181.64471 362.6124,173.09582 359.72449,163.73898 C 357.77433,160.66659 355.97224,159.56424 357.36887,163.81318 C 357.50745,176.70215 339.3625,186.88473 342.7004,199.67143 C 345.55381,203.09559 351.54582,207.22818 355.6204,207.27192 z M 347.13627,152.85164 C 346.91127,153.06427 348.02773,153.1257 347.13627,152.85164 z M 361.5002,154.81886 C 373.8956,156.53221 377.03872,141.06762 382.98823,134.61756 C 386.17964,126.72594 396.64983,122.17754 404.50946,126.98622 C 410.72151,128.74271 398.73517,123.24501 395.75196,123.3749 C 383.02738,121.30934 379.18363,137.37102 373.16783,144.15311 C 370.34714,148.60202 366.29902,153.51945 360.22486,154.54593 L 361.5002,154.81886 z "
+       id="text15618" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:1.01654804;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;stroke-miterlimit:4;stroke-dasharray:4.06619209, 4.06619209;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 407.55399,128.39274 C 436.70342,145.09802 436.70342,145.09802 436.70342,145.09802"
+       id="path8197" />
+  </g>
+</svg>

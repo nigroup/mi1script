@@ -1,0 +1,88 @@
+\subsection{Lagrange parameter and empirical error}
+Calculations are performed in feature space
+\begin{equation}
+	\begin{array}{ll}
+	R_{ \mathrm{emp} }^{ (p) }  
+	& = \frac{1}{2p} \sum_{ \alpha = 1 }^p \big(
+		\vec{w}^T 
+		\vec{x}^{ (\alpha) }
+		+ b + y_T^{ (\alpha) } \big)^2 \\
+	& = \frac{1}{2p} \sum_{ \alpha = 1 }^p \Bigg\{
+		\big( \vec{w}^T 
+		\vec{x}^{ (\alpha) } \big)^2
+		+ b^2 + \big( y_T^{ (\alpha) } \big)^2
+		+ 2 b \vec{w}^T
+			\vec{x}^{ (\alpha) }
+		- 2 y_T^{ (\alpha) } \vec{w}^T
+			\vec{x}^{ (\alpha) }
+		- 2 b y_T^{ (\alpha) } \Bigg\}
+	\end{array}
+\end{equation}
+removal of feature $\gamma$:
+\begin{equation}
+	\begin{array}{lcl}
+	\Delta_j 
+	& = &	R_{ \mathrm{emp} [ \vec{w} - 
+			\lambda_\gamma \vec{Z}^{(\gamma)},
+			b ] }^{ (p) }
+		- R_{ \mathrm{emp} [ \vec{w}, b  ] } \\\\
+	& = & \frac{1}{2p} \sum_{ \alpha = 1 }^p \Bigg\{
+		\Big( \sum_{ \beta \neq \gamma \in \mathrm{SV} }
+			\big( \vec{Z}^{(\beta)} \big)^T 
+			\vec{x}^{ (\alpha) }
+			\lambda_\beta \Big)^2 
+		- \Big( \sum_{ \beta \in \mathrm{SV} }
+			\big( \vec{Z}^{(\beta)} \big)^T 
+			\vec{x}^{ (\alpha) }
+			\lambda_\beta \Big)^2 \\
+	&&	+ 2 (b - y_T^{(\alpha)}) 
+			\sum_{ \beta \neq \gamma \in \mathrm{SV} }
+			\big( \vec{Z}^{(\beta)} \big)^T 
+			\vec{x}^{ (\alpha) }
+			\lambda_\beta
+		- 2 (b - y_T^{(\alpha)}) \sum_{ \beta  \in \mathrm{SV} }
+			\big( \vec{Z}^{(\beta)} \big)^T 
+			\vec{x}^{ (\alpha) }
+			\lambda_\beta
+		\Bigg\} \\\\
+	& = & \frac{1}{2p} \sum_{ \alpha = 1 }^p \Bigg\{
+		- 2 \big( \vec{Z}^{(\gamma)} \big)^T
+			\vec{x}^{ (\alpha) } \lambda_\gamma
+		\bigg\{ \sum_{ \beta  \in \mathrm{SV} }
+			\big( \vec{Z}^{(\beta)} \big)^T 
+			\vec{x}^{ (\alpha) }
+			\lambda_\beta \bigg\}
+		+ \bigg\{ \big( \vec{Z}^{(\gamma)} \big)^T
+			\vec{x}^{ (\alpha) } \lambda_\gamma
+		\bigg\}^2 \\
+	&&	- 2 (b - y_T^{(\alpha)})
+			\big( \vec{Z}^{(\gamma)} \big)^T
+			\vec{x}^{ (\alpha) } \lambda_\gamma
+		\Bigg\}
+	\end{array}
+\end{equation}
+Let $\mathrm{K}_{\beta\alpha} = \big( \vec{Z}^{(\beta)} \big)^T	\vec{x}^{ (\alpha) }$: 
+\begin{equation}
+	\Delta_j = \frac{1}{2p} \sum_{ \alpha = 1 }^p \Bigg\{
+		2 \lambda_\gamma \mathrm{K}_{\gamma\alpha} 
+		\bigg( \sum_{ \beta  \in \mathrm{SV} } \mathrm{K}_{\beta\alpha}
+			\lambda_\beta + b - y_T^{(\alpha)} \bigg)
+		- \lambda_\gamma^2 \mathrm{K}_{\gamma\alpha}^2
+		\Bigg\}
+\end{equation}
+calculating upper bound:
+\begin{equation}	
+	\frac{1}{p} \sum_{\alpha = 1}^p \mathrm{K}_{\beta\alpha}^2 = 1
+	\leadsto \big| \mathrm{K}_{\gamma\alpha} \big| \leq p
+\end{equation}
+with primal constraint
+\begin{equation}
+	\bigg| \mathrm{K}_{\gamma\alpha} \Big( \sum_{\alpha = 1}^p
+		\mathrm{K}_{\beta\alpha} \lambda_\beta + b - y_T^{(\alpha)}
+	\Big) \bigg| \leq \varepsilon
+\end{equation}
+Therefore
+\begin{equation}
+	\Rightarrow \Delta_j \leq \frac{\varepsilon | \lambda_\gamma | }{p}
+		+ \frac{\lambda_\gamma^2}{2}
+\end{equation}

@@ -1,0 +1,140 @@
+;; RefTeX parse info file
+;; File: /home/timm/output/teaching/MI1/scriptMI1beta/section2.tex
+;; User: timm (timm)
+
+(set reftex-docstruct-symbol '(
+
+
+(xr nil "\\\\\\\\\\\\")
+
+(index-tags)
+
+(is-multi nil)
+
+(bibview-cache)
+
+(master-dir . "/home/timm/output/teaching/MI1/scriptMI1beta/")
+
+(label-numbers)
+
+(bof "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex")
+
+(toc "toc" "    1 Learning Theory and Support Vector Machines" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 2 "1" "\\section{Learning Theory and Support Vector Machines}" 251)
+
+("sec:learn-theory-supp" "s" "\\setcounter{equation}{0} Statistical learning theory (SLT) provides a general mathematical framework" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil)
+
+(toc "toc" "      1.1 Elements of Statistical Learning Theory" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 3 "1.1" "\\subsection{Elements of Statistical Learning Theory}" 976)
+
+(toc "toc" "        1.1.1 Formulation of the Problem" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 4 "1.1.1" "\\subsubsection{Formulation of the Problem}" 1110)
+
+(toc "toc" "          1.1.1.1 Change in Nomenclature" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 5 "1.1.1.1" "\\paragraph{Change in Nomenclature}" 2085)
+
+(toc "toc" "          1.1.1.2 The learning problem" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 5 "1.1.1.2" "\\paragraph{The learning problem}" 2556)
+
+(toc "toc" "          1.1.1.3 When does inductive learning through empirical risk minimization work?" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 5 "1.1.1.3" "\\paragraph{When does inductive learning through empirical risk minimization work?}" 2923)
+
+(toc "toc" "          1.1.1.4 How strongly does $R_{(\\vec{w}_p)}$ differ from $R_{(\\vec{w}_O)}$ for a finite sample?" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 5 "1.1.1.4" "\\paragraph{How strongly does $R_{(\\vec{w}_p)}$ differ from $R_{(\\vec{w}_O)}$ for a finite sample?}" 3361)
+
+(toc "toc" "        1.1.2 The Key Theorem of Learning Theory" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 4 "1.1.2" "\\subsubsection{The Key Theorem of Learning Theory}" 3728)
+
+(toc "toc" "          1.1.2.1 Key theorem" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 5 "1.1.2.1" "\\paragraph{Key theorem}" 4689)
+
+(toc "toc" "          1.1.2.2 Law of large numbers" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 5 "1.1.2.2" "\\paragraph{Law of large numbers}" 5415)
+
+(toc "toc" "          1.1.2.3 Why does this matter?" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 5 "1.1.2.3" "\\paragraph{Why does this matter?}" 5931)
+
+(toc "toc" "        1.1.3 An important example: Linear classifiers" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 4 "1.1.3" "\\subsubsection{An important example: Linear classifiers}" 6215)
+
+(toc "toc" "          1.1.3.1 Linear separability" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 5 "1.1.3.1" "\\paragraph{Linear separability}" 7424)
+
+(toc "toc" "          1.1.3.2 Statistics of linear separability" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 5 "1.1.3.2" "\\paragraph{Statistics of linear separability}" 7742)
+
+(toc "toc" "          1.1.3.3 Capacity of the set of classifiers" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 5 "1.1.3.3" "\\paragraph{Capacity of the set of classifiers}" 10778)
+
+(toc "toc" "          1.1.3.4 Interpretation:" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 5 "1.1.3.4" "\\paragraph{Interpretation:}" 12459)
+
+("sec:interpretation" "s" "This means that for $P/N>2$ learning is possible, i.e.\\ a learned classifier can make useful predict" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil)
+
+(toc "toc" "        1.1.4 Conditions for Successful Learning with ERM" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 4 "1.1.4" "\\subsubsection{Conditions for Successful Learning with ERM}" 12702)
+
+(toc "toc" "          1.1.4.1 General classification problems" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 5 "1.1.4.1" "\\paragraph{General classification problems}" 13109)
+
+(toc "toc" "          1.1.4.2 Capacity measures for the set of classifiers" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 5 "1.1.4.2" "\\paragraph{Capacity measures for the set of classifiers}" 13811)
+
+(toc "toc" "          1.1.4.3 $\\dvc$: VC-dimension (\\underline{V}apnik, \\underline{C}hernovenkis)" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 5 "1.1.4.3" "\\paragraph{$\\dvc$: VC-dimension (\\underline{V}apnik, \\underline{C}hernovenkis)}" 15716)
+
+(toc "toc" "          1.1.4.4 Comments" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 5 "1.1.4.4" "\\paragraph{Comments}" 18524)
+
+(toc "toc" "      1.2 Support Vector Machines" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 3 "1.2" "\\subsection{Support Vector Machines}" 19296)
+
+("sec:SVM" "s" "While the bounds derived from SLT are interesting from a theoretical point of view, they more genera" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil)
+
+(toc "toc" "        1.2.1 Learning by Structural Risk Minimization" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 4 "1.2.1" "\\subsubsection{Learning by Structural Risk Minimization}" 19772)
+
+("fig:SRM-principle" "f" "Illustration of the SRM approach: Inner to outer ellipses represent models of increasing capacity ($" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil)
+
+(toc "toc" "          1.2.1.1 \\underline{S}tructural \\underline{R}isk \\underline{M}inimization:" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 5 "1.2.1.1" "\\paragraph{\\underline{S}tructural \\underline{R}isk \\underline{M}inimization:}" 21133)
+
+(toc "toc" "        1.2.2 Application of SRM to Classification with Binary Connectionist Neurons" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 4 "1.2.2" "\\subsubsection{Application of SRM to Classification with Binary Connectionist Neurons}" 21609)
+
+("eq:marginNormalization" "e" "\\min_{\\alpha = 1, \\ldots, p} \\Big| \\underbrace{\\vec{w}^T \\vec{x}^{(\\alpha)} + b}_{:=h} \\Big| \\eqexcl" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil)
+
+("fig:applicationSRM" "f" "Application of the SRM principle: Better figure???" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil)
+
+(toc "toc" "        1.2.3 SRM Learning for Linearly Separable Problems" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 4 "1.2.3" "\\subsubsection{SRM Learning for Linearly Separable Problems}" 25003)
+
+(toc "toc" "            * Model selection through SRM: Primal Problem" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 4 "    *" "\\subsubsection*{Model selection through SRM: Primal Problem}" 25388)
+
+(toc "toc" "          1.2.3.1 Note:" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 5 "1.2.3.1" "\\paragraph{Note:}" 25665)
+
+(toc "toc" "          1.2.3.2 Note:" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 5 "1.2.3.2" "\\paragraph{Note:}" 25831)
+
+(toc "toc" "              * Theorem by Kuhn and Tucker" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 4 "      *" "\\subsubsection*{Theorem by Kuhn and Tucker}" 26016)
+
+(toc "toc" "          1.2.3.3 Preliminaries: " "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 5 "1.2.3.3" "\\paragraph{Preliminaries: }" 26348)
+
+(toc "toc" "          1.2.3.4 (primal) Optimization problem" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 5 "1.2.3.4" "\\paragraph{(primal) Optimization problem}" 26907)
+
+(toc "toc" "          1.2.3.5 Lagrangian" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 5 "1.2.3.5" "\\paragraph{Lagrangian}" 27200)
+
+(toc "toc" "          1.2.3.6 Equivalent optimization problem" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 5 "1.2.3.6" "\\paragraph{Equivalent optimization problem}" 27459)
+
+(toc "toc" "          1.2.3.7 Comments" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 5 "1.2.3.7" "\\paragraph{Comments}" 27959)
+
+(toc "toc" "          1.2.3.8 Application of the theorem:" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 5 "1.2.3.8" "\\paragraph{Application of the theorem:}" 28456)
+
+("eq:lagrangianLinSep" "e" "L = \\frac{1}{2} | \\vec{w} |^2 - \\sum_{\\alpha = 1}^p \\lambda_\\alpha \\Big\\{ y_T^{(\\alpha)} \\Big( \\vec{" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil)
+
+(toc "toc" "        1.2.4 SRM Learning for Non-linear Classification Boundaries" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 4 "1.2.4" "\\subsubsection{SRM Learning for Non-linear Classification Boundaries}" 33363)
+
+(toc "toc" "          1.2.4.1 Mercer's theorem:" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 5 "1.2.4.1" "\\paragraph{Mercer's theorem:}" 34355)
+
+(toc "toc" "          1.2.4.2 Comments" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 5 "1.2.4.2" "\\paragraph{Comments}" 37024)
+
+(toc "toc" "        1.2.5 The C-Support Vector Machine" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 4 "1.2.5" "\\subsubsection{The C-Support Vector Machine}" 37971)
+
+("eq:primal-problem-csvm" "e" "\\begin{array}{ll} \\frac{1}{2} |\\vec{w}|^2 + \\frac{C}{p} \\sum\\limits_{\\alpha = 1}^p \\varphi_\\alpha \\e" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil)
+
+(toc "toc" "        1.2.6 Sequential Minimal Optimization" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 4 "1.2.6" "\\subsubsection{Sequential Minimal Optimization}" 41237)
+
+("sec:sequentialOptim" "s" "Sequential Minimal Optimization (SMO) is an efficient procedure to solve the dual problem. The kerne" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil)
+
+("eq:kkt-conditions" "e" "\\Big[ \\underbrace{ y_T^{(\\alpha)} \\Big( \\vec{w}^T \\vec{x}^{(\\alpha)} + b \\Big) -1 + \\varphi_\\alpha }" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil)
+
+(toc "toc" "      1.3 The P-SVM Ansatz" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 3 "1.3" "\\subsection{The P-SVM Ansatz}" 46081)
+
+(toc "toc" "        1.3.1 Shortcomings of Standard SVM-Approaches" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 4 "1.3.1" "\\subsubsection{Shortcomings of Standard SVM-Approaches}" 46193)
+
+(toc "toc" "        1.3.2 The Primal Optimization Problem" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 4 "1.3.2" "\\subsubsection{The Primal Optimization Problem}" 47605)
+
+(toc "toc" "        1.3.3 Regularization" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 4 "1.3.3" "\\subsubsection{Regularization}" 52736)
+
+(toc "toc" "        1.3.4 Dual Formulation and P-SVM Classifier" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 4 "1.3.4" "\\subsubsection{Dual Formulation and P-SVM Classifier}" 54048)
+
+(toc "toc" "        1.3.5 The Kernel Trick" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 4 "1.3.5" "\\subsubsection{The Kernel Trick}" 59465)
+
+(toc "toc" "        1.3.6 Properties of the P-SVM" "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex" nil 4 "1.3.6" "\\subsubsection{Properties of the P-SVM}" 60389)
+
+(eof "/home/timm/output/teaching/MI1/scriptMI1beta/section2.tex")
+))
+

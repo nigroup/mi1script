@@ -1,0 +1,15 @@
+# some files and directories to be ignored
+
+*~
+*.aux
+*.log
+*.toc
+
+main.pdf
+
+auto/
+figures/eps/
+figures/svg/
+figures/png/
+
+

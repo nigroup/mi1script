@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg1908"
+   sodipodi:version="0.32"
+   inkscape:version="0.44"
+   sodipodi:docbase="/home/schmu20mol/TU-Berlin/job/script/MI1/figures/svg"
+   sodipodi:docname="section1_fig18.svg">
+  <defs
+     id="defs1910">
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;">
+      <path
+         id="path4806"
+         style="font-size:12.0;fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.112963"
+     inkscape:cx="374.70333"
+     inkscape:cy="873.57318"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1398"
+     inkscape:window-height="975"
+     inkscape:window-x="0"
+     inkscape:window-y="25" />
+  <metadata
+     id="metadata1913">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g1928">
+      <path
+         id="path12056"
+         d="M 95.769518,236.265 C 310.05223,236.265 310.05223,236.265 310.05223,236.265"
+         style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:1.01083851px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-opacity:1" />
+      <path
+         id="path12058"
+         d="M 119.42204,259.89916 C 119.42204,41.762782 119.42204,41.762782 119.42204,41.762782"
+         style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:0.99474108px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-opacity:1" />
+    </g>
+    <g
+       id="g1924"
+       transform="translate(0,-4.624902)">
+      <path
+         id="path1920"
+         d="M 413.50939,240.8899 C 627.7921,240.8899 627.7921,240.8899 627.7921,240.8899"
+         style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:1.01083851px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-opacity:1" />
+      <path
+         id="path1922"
+         d="M 437.16191,264.52406 C 437.16191,46.387684 437.16191,46.387684 437.16191,46.387684"
+         style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:0.99474108px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-opacity:1" />
+    </g>
+    <image
+       y="13.461022"
+       x="110.67574"
+       id="image2125"
+       height="27.023359"
+       width="21.393492"
+       sodipodi:absref="/home/schmu20mol/TU-Berlin/job/script/MI1/figures/png/standards/y.png"
+       xlink:href="/home/schmu20mol/TU-Berlin/job/script/MI1/figures/png/standards/y.png" />
+    <image
+       y="13.461022"
+       x="428.15555"
+       id="image2128"
+       height="27.023359"
+       width="21.393492"
+       sodipodi:absref="/home/schmu20mol/TU-Berlin/job/script/MI1/figures/png/standards/y.png"
+       xlink:href="/home/schmu20mol/TU-Berlin/job/script/MI1/figures/png/standards/y.png" />
+    <g
+       id="g3122"
+       transform="matrix(0.562987,0,0,0.562987,153.5914,184.8457)">
+      <image
+         xlink:href="/home/schmu20mol/TU-Berlin/job/script/MI1/figures/png/standards/x_1.png"
+         sodipodi:absref="/home/schmu20mol/TU-Berlin/job/script/MI1/figures/png/standards/x_1.png"
+         width="44"
+         height="40"
+         id="image2230"
+         x="283.73181"
+         y="70.679443" />
+      <rect
+         y="71.358658"
+         x="314.33389"
+         height="44.320805"
+         width="14.504851"
+         id="rect2233"
+         style="fill:white;fill-opacity:1;stroke:white;stroke-width:1.21995139;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g3126"
+       transform="matrix(0.562987,0,0,0.562987,470.2243,184.8457)">
+      <image
+         xlink:href="/home/schmu20mol/TU-Berlin/job/script/MI1/figures/png/standards/x_1.png"
+         sodipodi:absref="/home/schmu20mol/TU-Berlin/job/script/MI1/figures/png/standards/x_1.png"
+         width="44"
+         height="40"
+         id="image3128"
+         x="283.73181"
+         y="70.679443" />
+      <rect
+         y="71.358658"
+         x="314.33389"
+         height="44.320805"
+         width="14.504851"
+         id="rect3130"
+         style="fill:white;fill-opacity:1;stroke:white;stroke-width:1.21995139;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g3203">
+      <text
+         id="text3183"
+         y="195.74518"
+         x="139.61436"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="195.74518"
+           x="139.61436"
+           id="tspan3185"
+           sodipodi:role="line">x</tspan></text>
+      <text
+         id="text3187"
+         y="141.76088"
+         x="160.69702"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="141.76088"
+           x="160.69702"
+           id="tspan3189"
+           sodipodi:role="line">x</tspan></text>
+      <text
+         id="text3191"
+         y="147.44011"
+         x="196.1922"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="147.44011"
+           x="196.1922"
+           id="tspan3193"
+           sodipodi:role="line">x</tspan></text>
+      <text
+         id="text3195"
+         y="126.61626"
+         x="241.15276"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="126.61626"
+           x="241.15276"
+           id="tspan3197"
+           sodipodi:role="line">x</tspan></text>
+      <text
+         id="text3199"
+         y="89.701279"
+         x="288.00641"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="89.701279"
+           x="288.00641"
+           id="tspan3201"
+           sodipodi:role="line">x</tspan></text>
+    </g>
+    <g
+       id="g3215"
+       transform="translate(319.3494,0)">
+      <text
+         id="text3217"
+         y="195.74518"
+         x="139.61436"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="195.74518"
+           x="139.61436"
+           id="tspan3219"
+           sodipodi:role="line">x</tspan></text>
+      <text
+         id="text3221"
+         y="141.76088"
+         x="160.69702"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="141.76088"
+           x="160.69702"
+           id="tspan3223"
+           sodipodi:role="line">x</tspan></text>
+      <text
+         id="text3225"
+         y="147.44011"
+         x="196.1922"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="147.44011"
+           x="196.1922"
+           id="tspan3227"
+           sodipodi:role="line">x</tspan></text>
+      <text
+         id="text3229"
+         y="126.61626"
+         x="241.15276"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="126.61626"
+           x="241.15276"
+           id="tspan3231"
+           sodipodi:role="line">x</tspan></text>
+      <text
+         id="text3233"
+         y="89.701279"
+         x="288.00641"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="89.701279"
+           x="288.00641"
+           id="tspan3235"
+           sodipodi:role="line">x</tspan></text>
+    </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 95.600351,212.78287 C 95.600351,212.78287 170.85013,119.54886 291.06047,98.251753 C 411.27082,76.954645 291.53374,98.251753 291.53374,98.251753"
+       id="path3237" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 442.97984,90.679448 C 442.97984,90.679448 451.84892,194.93475 461.43734,191.95903 C 488.88695,183.44018 488.97065,52.758433 500.71867,53.291192 C 513.32933,53.863071 511.7879,175.28598 536.21385,171.13519 C 564.64349,166.30404 577.85411,34.566334 581.17441,34.833699 C 584.43228,35.096037 588.28786,149.55123 600.10517,148.41827 C 612.11614,147.26674 611.46363,41.459466 611.46363,41.459466"
+       id="path3239"
+       sodipodi:nodetypes="csssssc" />
+    <image
+       y="241.32335"
+       x="176.88127"
+       id="image3296"
+       height="16.131195"
+       width="79.647774"
+       sodipodi:absref="/home/schmu20mol/TU-Berlin/job/script/MI1/figures/png/section1_fig18_00.png"
+       xlink:href="/home/schmu20mol/TU-Berlin/job/script/MI1/figures/png/section1_fig18_00.png" />
+    <image
+       y="241.32335"
+       x="463.83676"
+       id="image3339"
+       height="16.803329"
+       width="129.72169"
+       sodipodi:absref="/home/schmu20mol/TU-Berlin/job/script/MI1/figures/png/section1_fig18_01.png"
+       xlink:href="/home/schmu20mol/TU-Berlin/job/script/MI1/figures/png/section1_fig18_01.png" />
+  </g>
+</svg>

@@ -1,0 +1,80 @@
+\documentclass[a4paper,11pt,titlepage]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb,amsmath,amsfonts,mathrsfs}
+\usepackage{enumerate,graphicx,fancyhdr,hyperref}
+\usepackage[ruled]{algorithm2e}
+%\usepackage{a4wide,wasysym} 
+\usepackage{tikz,tkz-berge}
+\usetikzlibrary{arrows,topaths,shadows}
+\usepackage{subcaption}
+\usepackage{wrapfig}
+
+\tikzset{
+  frame/.style={
+    rectangle, draw, 
+    text width=6em, text centered,
+    minimum height=2em,drop shadow,fill=gray!10,
+    rounded corners,
+  },
+  line/.style={
+    draw, -latex',rounded corners=3mm,
+  }
+}
+
+
+\hypersetup{pdfborder={0 0 0}} % links wont be visualized in the pdf
+
+\graphicspath{{../../../figures/pdf/}{../../../figures/png/}}
+\pagestyle{fancy}
+
+% ---------------------------- Page Headers (& footers)------------------------
+\lhead{Machine Intelligence I}
+\fancyhead[R]{\nouppercase{\rightmark}}
+
+% --------------------- Equation Numbering-------------------------------------
+\renewcommand {\theequation}{\thesection.\arabic{equation}}			
+%\newcommand{\slideref}[1]{$\Box$\footnote{slide: #1}}
+\newcommand{\slideref}[1]{\marginpar{$\Box$\parbox{1.25cm}{\centering\tiny #1}}}
+
+% ------------------------- New Commands --------------------------------------
+\newcommand{\eqexcl}{\ensuremath{\stackrel{\mathrm{!}}{=}}}
+\newcommand{\corresponds}{\ensuremath{\widehat{=}}}
+\newcommand{\coloneqq}{\ensuremath{:=}}
+\newcommand{\argmin}{\operatornamewithlimits{argmin}}
+\newcommand{\sign}{\operatorname{sign}}
+\newcommand{\emp}{\operatorname{emp}}
+\newcommand{\dvc}{\mathrm{d}_{\mathrm{VC}}}
+\newcommand{\argmax}{\operatornamewithlimits{argmax}}
+\newcommand{\itr}{\item[$\rightarrow$]}
+\newcommand{\itR}{\item[$\Rightarrow$]}
+\newcommand{\itl}{\item[$\leadsto$]}
+\renewcommand{\labelitemi}{$\blacksquare$}
+\renewcommand\labelitemii{$\bullet$}
+\newcommand{\iitem}[1]{\begin{itemize} \item {#1} \end{itemize}}
+\newcommand{\algfont}[1]{\texttt{#1}}
+% \smallfrac is a \frac in \textstyle
+\newcommand{\smallfrac}[2]{ {\textstyle \frac{#1}{#2}} }
+% 			--------------------
+% \smallsum creates a sum in textstyle with small indices
+\newcommand{\smallsum}[2]{ 
+	{\textstyle \sum\limits_{\scriptscriptstyle #1}^{\scriptscriptstyle #2}} }
+
+% matrices with different types of brackets 
+\newcommand{\mat}[2][rrrrrrrrrrrrrrrrrrrrrrrrrr]{
+  \left[ \begin{array}{#1} #2\\ \end{array} \right]}
+\newcommand{\rmat}[2][rrrrrrrrrrrrrrrrrrrrrrrrrr]{
+  \left( \begin{array}{#1} #2\\ \end{array} \right)}
+\newcommand{\dmat}[2][rrrrrrrrrrrrrrrrrrrrrrrrrr]{
+  \left|\left[ \begin{array}{#1} #2\\ \end{array} \right]\right|}
+\newcommand{\drmat}[2][rrrrrrrrrrrrrrrrrrrrrrrrrr]{
+  \left|\left( \begin{array}{#1} #2\\ \end{array} \right)\right|}
+
+\renewcommand{\vec}[1]{\ensuremath{\underline{\mathbf{#1}}}}
+% NOTE: Vector notation used in neural network textbooks -- this is 
+% easier to read for expressions like \hat{\underline{\mathbf{w}}}. 
+
+% Mathematical standard sets
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Set}[1]{\mathcal{#1}}

@@ -1,0 +1,91 @@
+\subsection{Derivation of the 'dual problem' for C-SVM's}
+\begin{equation}
+	f_0: \frac{1}{2} | \vec{w} |^2 +
+		\frac{c}{p} \sum_{ \alpha = 1}^p \xi_\alpha
+\end{equation}
+Constraints:
+\begin{equation}
+	f_\alpha^{ (1) }: -\Big\{ y_T^{ (\alpha) } \big( 
+		\vec{w}^T 
+		\vec{x}^{ (\alpha) }
+		+ b \big) - 1 + \xi_\alpha
+	\frac{c}{p}\Big\} \leq 0 
+\end{equation}
+\begin{equation}
+	f_\alpha^{ (2) }: -\xi_\alpha \leq 0
+\end{equation}
+Lagrangian $\mathscr{L}$:
+\begin{equation}
+	\mathscr{L} = \frac{1}{2} | \vec{w} |^2 +
+		\frac{c}{p} \sum_{ \alpha = 1}^p \xi_\alpha
+	-\sum_{ \alpha = 1 }^p \lambda_\alpha \Big\{ y_T^{ (\alpha) } \big( 
+		\vec{w}^T 
+		\vec{x}^{ (\alpha) }
+		+ b \big) - 1 + \xi_\alpha \Big\}
+	-\sum_{ \alpha = 1 }^p \eta_\alpha \xi_\alpha
+\end{equation}
+$\vec{w}, b, \xi_\alpha$: 'primal variables'\\
+$\lambda_\alpha, \eta_\alpha$: 'dual variables'\\
+Minimizing with respect to $\vec{w}, b$ and $\xi_\alpha$:
+\begin{equation}
+	\frac{\partial \mathscr{L}}{\partial \mathrm{ w }_l } =
+		\mathrm{ w }_l - \sum_{ \alpha = 1 }^p \lambda_\alpha
+			y_T^{ (\alpha) } x_l^{ (\alpha) } \eqexcl 0
+	\Rightarrow \vec{w} = 
+		\sum_{ \alpha = 1 }^p \lambda_\alpha
+			y_T^{ (\alpha) } x_l^{ (\alpha) }
+\end{equation}
+\begin{equation}
+	\frac{\partial \mathscr{L}}{\partial b } =
+	-\sum_{ \alpha = 1 }^p \lambda_\alpha
+			y_T^{ (\alpha) } \eqexcl 0
+\end{equation}
+\begin{equation}
+	\begin{array}{ll}
+	\frac{\partial \mathscr{L}}{\partial \xi_\alpha } 
+	& = -\lambda_\alpha -\eta_\alpha + \frac{c}{p} \eqexcl 0 \\\\
+	& \Rightarrow \eta_\alpha = \frac{c}{p} - \lambda_\alpha \\\\
+	& \Rightarrow \lambda_\alpha \leq \frac{c}{p} 
+		\textrm{ because of } \eta_\alpha \geq 0
+	\end{array}
+\end{equation}
+Inserting everything into the Lagrangian:
+\begin{equation}	
+	\begin{array}{ll}
+	\mathrm{w} = 
+	& \frac{1}{2} \sum_{ \alpha, \beta = 1 }^p \lambda_\alpha \lambda_\beta
+		y_T^{ (\alpha) } y_T^{ (\beta) } 
+		( \vec{x}^{ (\alpha) } )^T 
+		\vec{x}^{ (\beta) } \\\\
+	& - \sum_{ \alpha = 1 }^p \lambda_\alpha y_T^{ (\alpha) }
+	- \sum_{ \beta = 1 }^p \lambda_\beta y_T^{ (\beta) }
+	( \vec{x}^{ (\beta) } )^T 
+		\vec{x}^{ (\alpha) } \\\\
+	& - \underbrace{ \bigg( \sum_{ \alpha = 1 }^p \lambda_\alpha 
+		y_T^{ (\alpha) } \bigg) }_{= 0} b 
+	+ \sum_{ \alpha = 1 }^p \lambda_\alpha \\\\
+	& - \sum_{ \alpha = 1 }^p \lambda_{ \alpha } \xi_{ \alpha }
+	- \sum_{ \alpha }^p \Big( \frac{c}{p} - \lambda_{ \alpha } \Big) 
+		\xi_{ \alpha }
+	+ \frac{c}{p} \sum_{ \alpha = 1 }^p \xi_{ \alpha }
+	\end{array}
+\end{equation}
+Therefore:
+\begin{equation}
+	\mathrm{w} = -\frac{1}{2} \sum_{ \alpha, \beta = 1 }^p 
+		\lambda_\alpha \lambda_\beta y_T^{ (\alpha) }
+		y_T^{ (\beta) } ( \vec{x}^{ (\alpha) } )^T
+		\vec{x}^{ (\beta) } + \sum_{ \alpha = 1}^p 
+		\lambda_\alpha
+\end{equation}
+'Dual' optimization problem:
+\begin{equation}	
+	\mathrm{w} = \max_{ (\lambda_\alpha) }
+\end{equation}
+Constraints:
+\begin{equation}
+	0 \leq \lambda_\alpha \leq \frac{c}{p}
+\end{equation}
+\begin{equation}
+	\sum_{ \alpha = 1 }^p \lambda_\alpha y_T^{ (\alpha) } = 0
+\end{equation}

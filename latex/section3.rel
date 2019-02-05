@@ -1,0 +1,144 @@
+;; RefTeX parse info file
+;; File: /home/timm/output/teaching/MI1/scriptMI1beta/section3.tex
+;; User: timm (timm)
+
+(set reftex-docstruct-symbol '(
+
+
+(xr nil "\\\\\\\\\\\\")
+
+(index-tags)
+
+(is-multi nil)
+
+(bibview-cache)
+
+(master-dir . "/home/timm/output/teaching/MI1/scriptMI1beta/")
+
+(label-numbers)
+
+(bof "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex")
+
+(toc "toc" "    1 Probabilistic Methods I: Bayesian Inference" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 2 "1" "\\section{Probabilistic Methods I: Bayesian Inference}" 256)
+
+(toc "toc" "      1.1 Uncertainty and Inference" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 3 "1.1" "\\subsection{Uncertainty and Inference}" 995)
+
+(toc "toc" "        1.1.1 Degrees of Belief" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 4 "1.1.1" "\\subsubsection{Degrees of Belief}" 1116)
+
+(toc "toc" "          1.1.1.1 Diagnosis example:" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 5 "1.1.1.1" "\\paragraph{Diagnosis example:}" 1918)
+
+(toc "toc" "          1.1.1.2 Degrees of belief" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 5 "1.1.1.2" "\\paragraph{Degrees of belief}" 2937)
+
+(toc "toc" "        1.1.2 The Description of the World" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 4 "1.1.2" "\\subsubsection{The Description of the World}" 3942)
+
+(toc "toc" "          1.1.2.1 Random variables and propositions" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 5 "1.1.2.1" "\\paragraph{Random variables and propositions}" 4089)
+
+(toc "toc" "          1.1.2.2 Examples" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 5 "1.1.2.2" "\\paragraph{Examples}" 4389)
+
+(toc "toc" "          1.1.2.3 Atomic events" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 5 "1.1.2.3" "\\paragraph{Atomic events}" 4819)
+
+(toc "toc" "          1.1.2.4 Prior (unconditional) probabilities" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 5 "1.1.2.4" "\\paragraph{Prior (unconditional) probabilities}" 5508)
+
+(toc "toc" "          1.1.2.5 Conditional probabilities" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 5 "1.1.2.5" "\\paragraph{Conditional probabilities}" 5912)
+
+(toc "toc" "        1.1.3 Probabilistic Inference Using Joint Probabilities" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 4 "1.1.3" "\\subsubsection{Probabilistic Inference Using Joint Probabilities}" 6763)
+
+(toc "toc" "          1.1.3.1 Note:" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 5 "1.1.3.1" "\\paragraph{Note:}" 8149)
+
+(toc "toc" "          1.1.3.2 Problem:" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 5 "1.1.3.2" "\\paragraph{Problem:}" 8287)
+
+(toc "toc" "        1.1.4 Conditional Independence" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 4 "1.1.4" "\\subsubsection{Conditional Independence}" 8690)
+
+(toc "toc" "          1.1.4.1 Definition of conditional independence" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 5 "1.1.4.1" "\\paragraph{Definition of conditional independence}" 9064)
+
+(toc "toc" "        1.1.5 Bayes' Theorem" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 4 "1.1.5" "\\subsubsection{Bayes' Theorem}" 10492)
+
+(toc "toc" "          1.1.5.1 Common inference task:" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 5 "1.1.5.1" "\\paragraph{Common inference task:}" 10523)
+
+(toc "toc" "              * Approach 1: causal knowledge base $\\rightarrow$ diagnostic rule" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 4 "      *" "\\subsubsection*{Approach 1: causal knowledge base $\\rightarrow$ diagnostic rule}" 10922)
+
+(toc "toc" "              * Approach 2: diagnostic knowledge base" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 4 "      *" "\\subsubsection*{Approach 2: diagnostic knowledge base}" 11471)
+
+(toc "toc" "      1.2 Bayesian Networks" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 3 "1.2" "\\subsection{Bayesian Networks}" 12313)
+
+(toc "toc" "          1.2.0.1 Example:" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 5 "1.2.0.1" "\\paragraph{Example:}" 13074)
+
+(toc "toc" "          1.2.0.2 Inference:" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 5 "1.2.0.2" "\\paragraph{Inference:}" 13580)
+
+(toc "toc" "        1.2.1 Directed Acyclic Graphs" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 4 "1.2.1" "\\subsubsection{Directed Acyclic Graphs}" 14987)
+
+(toc "toc" "          1.2.1.1 Topological sorting:" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 5 "1.2.1.1" "\\paragraph{Topological sorting:}" 16515)
+
+("alg:topological-sorting" "s" " " "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil)
+
+(toc "toc" "          1.2.1.2 Comment:" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 5 "1.2.1.2" "\\paragraph{Comment:}" 17087)
+
+(toc "toc" "          1.2.1.3 Properties of DAGs" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 5 "1.2.1.3" "\\paragraph{Properties of DAGs}" 17542)
+
+(toc "toc" "        1.2.2 Decomposable Undirected Graphs" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 4 "1.2.2" "\\subsubsection{Decomposable Undirected Graphs}" 18235)
+
+(toc "toc" "          1.2.2.1 Separator" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 5 "1.2.2.1" "\\paragraph{Separator}" 18441)
+
+(toc "toc" "          1.2.2.2 Proper decomposition of $G = (V,K)$" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 5 "1.2.2.2" "\\paragraph{Proper decomposition of $G = (V,K)$}" 18932)
+
+(toc "toc" "          1.2.2.3 Decomposable graph" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 5 "1.2.2.3" "\\paragraph{Decomposable graph}" 19380)
+
+(toc "toc" "          1.2.2.4 Decomposable graphs and distributions: " "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 5 "1.2.2.4" "\\paragraph{Decomposable graphs and distributions: }" 20194)
+
+("eq:marginalRepresentation" "e" "P(x_1, \\ldots, x_6) = \\frac{ \\overbrace{ P(x_1, x_2, x_3) P(x_2, x_3, x_4) P(x_4, x_5, x_6)}^{ \\text" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil)
+
+(toc "toc" "        1.2.3 Marginal Distributions and Inference on Decomposable Graphs" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 4 "1.2.3" "\\subsubsection{Marginal Distributions and Inference on Decomposable Graphs}" 22648)
+
+("eq:potentialRepresentation" "e" "P(x, y, z) = \\alpha \\frac{f(x, y) g(y, z)}{h(y)} " "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil)
+
+(toc "toc" "          1.2.3.1 Goal:" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 5 "1.2.3.1" "\\paragraph{Goal:}" 23266)
+
+(toc "toc" "          1.2.3.2 Calculation through message passing:" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 5 "1.2.3.2" "\\paragraph{Calculation through message passing:}" 24553)
+
+(toc "toc" "        1.2.4 Belief Propagation and the Junction Tree Algorithm" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 4 "1.2.4" "\\subsubsection{Belief Propagation and the Junction Tree Algorithm}" 27527)
+
+(toc "toc" "          1.2.4.1 Overview" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 5 "1.2.4.1" "\\paragraph{Overview}" 27594)
+
+(toc "toc" "          1.2.4.2 Details ad (2) -- Construction of the inference engine" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 5 "1.2.4.2" "\\paragraph{Details ad (2) -- Construction of the inference engine}" 28852)
+
+("sec:details" "s" "\\begin{enumerate}[-a-] " "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil)
+
+(toc "toc" "          1.2.4.3 Details ad (3) -- Inference: processing of the evidence" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 5 "1.2.4.3" "\\paragraph{Details ad (3) -- Inference: processing of the evidence}" 30457)
+
+("sec:infer-proc-evid" "s" "\\begin{enumerate}[-a-] " "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil)
+
+(toc "toc" "      1.3 Bayesian Inference and Neural Networks" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 3 "1.3" "\\subsection{Bayesian Inference and Neural Networks}" 33166)
+
+(toc "toc" "        1.3.1 Generative Models" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 4 "1.3.1" "\\subsubsection{Generative Models}" 33299)
+
+(toc "toc" "          1.3.1.1 Example I:" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 5 "1.3.1.1" "\\paragraph{Example I:}" 34751)
+
+(toc "toc" "          1.3.1.2 Common noise models" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 5 "1.3.1.2" "\\paragraph{Common noise models}" 35534)
+
+(toc "toc" "          1.3.1.3 Example II:" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 5 "1.3.1.3" "\\paragraph{Example II:}" 36429)
+
+(toc "toc" "        1.3.2 Bayesian Model Selection" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 4 "1.3.2" "\\subsubsection{Bayesian Model Selection}" 36997)
+
+(toc "toc" "        1.3.3 Bayesian Prediction" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 4 "1.3.3" "\\subsubsection{Bayesian Prediction}" 39156)
+
+(toc "toc" "          1.3.3.1 Prediction and evaluation of distribution:" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 5 "1.3.3.1" "\\paragraph{Prediction and evaluation of distribution:}" 40377)
+
+(toc "toc" "        1.3.4 Application: MLPs with weight decay" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 4 "1.3.4" "\\subsubsection{Application: MLPs with weight decay}" 41303)
+
+("eq:likelihoodData" "e" "\\begin{array}{ll} P_{(Y|\\vec{x};\\vec{w})} & \\sim \\prod\\limits_{\\alpha} \\exp \\Big\\{ -\\beta e_{\\big( y" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil)
+
+("eq:priorParameters" "e" "\\begin{array}{rcl} - \\ln P_{(\\vec{w})} - 1 + \\lambda - \\alpha E_{(\\vec{w})}^R & = & 0 " "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil)
+
+(toc "toc" "        1.3.5 The ''maximum a posteriori'' method (Empirical Bayes)" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 4 "1.3.5" "\\subsubsection{The ''maximum a posteriori'' method (Empirical Bayes)}" 47218)
+
+(toc "toc" "          1.3.5.1 The MAP-assumption:" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 5 "1.3.5.1" "\\paragraph{The MAP-assumption:}" 47794)
+
+(toc "toc" "          1.3.5.2 Comments" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 5 "1.3.5.2" "\\paragraph{Comments}" 51963)
+
+(toc "toc" "        1.3.6 Prediction of attributes (point prediction)" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 4 "1.3.6" "\\subsubsection{Prediction of attributes (point prediction)}" 53081)
+
+(toc "toc" "          1.3.6.1 Example:" "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex" nil 5 "1.3.6.1" "\\paragraph{Example:}" 53569)
+
+(eof "/home/timm/output/teaching/MI1/scriptMI1beta/section3.tex")
+))
+

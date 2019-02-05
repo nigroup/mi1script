@@ -1,0 +1,96 @@
+\subsection{Deviations from the optimal model}
+bound on generalization performance:
+\begin{equation}
+	P\Bigg\{ \sup_{\vec{w} \in \Lambda} 
+	\Big| R_{ ( \vec{w} ) } -
+		R_{ \mathrm{ emp } ( \vec{w} ) }^{ (P) }
+	\Big| > \eta \Bigg\}
+	< 4\exp\Bigg\{ G_{ (2p) }^\Lambda - p \bigg( \eta - \frac{1}{p} \bigg)^2
+		\Bigg\} \eqexcl \varepsilon
+\end{equation}
+\begin{equation}
+	\begin{array}{rl}
+	4\exp\Bigg\{ G_{ (2p) }^\Lambda - p \bigg( \eta - \frac{1}{p} \bigg)^2
+		\Bigg\} & = \varepsilon \\
+	\Bigg\{ G_{ (2p) }^\Lambda - p \bigg( \eta - \frac{1}{p} \bigg)^2
+		\Bigg\} & = \ln \frac{\varepsilon}{4} \\
+	p \bigg( \eta - \frac{1}{p} \bigg)^2
+		& = G_{ (2p) }^\Lambda -\ln \frac{\varepsilon}{4} \\
+	\eta - \frac{1}{p}
+		& = \Bigg\{ \frac{ G_{ (2p) }^\Lambda 
+			-\ln \frac{\varepsilon}{4} }{p}
+		\Bigg\}^{ \frac{1}{2} } + \frac{1}{p} \\
+	\eta & = \Bigg\{ \frac{ G_{ (2p) }^\Lambda 
+			-\ln \frac{\varepsilon}{4} }{p}
+		\Bigg\}^{ \frac{1}{2} } + \frac{1}{p} \\
+	\end{array}
+\end{equation}
+with a probability larger than $1 - \varepsilon$ we obtain
+\begin{equation}
+	\sup_{\vec{w} \in \Lambda} 
+		\Big| R_{ ( \vec{w} ) } -
+		R_{ \mathrm{ emp } ( \vec{w} ) }^{ (P) }
+		\Big|
+	< \Bigg\{ \frac{ G_{ (2p) }^\Lambda 
+			-\ln \frac{\varepsilon}{4} }{p}
+		\Bigg\}^{ \frac{1}{2} } + \frac{1}{p}
+\end{equation}
+\begin{equation} \label{main1}
+	R_{ ( \vec{w} ) } <
+	R_{ \mathrm{ emp } ( \vec{w} ) }^{ (P) } +
+	\Bigg\{ \frac{ G_{ (2p) }^\Lambda 
+			-\ln \frac{\varepsilon}{4} }{p}
+		\Bigg\}^{ \frac{1}{2} } + \frac{1}{p}
+\end{equation}
+For the optimal model $\vec{w}_0$ we obtain (law of large numbers and Hoeffding's inequality):
+\begin{equation}
+	P\Bigg\{
+	R_{ \mathrm{ emp } ( \vec{w}_0 ) }^{ (P) } -
+	R_{ ( \vec{w}_0 ) } > \eta
+	\Bigg\}
+	< \exp\big\{ -2 \eta^2 p \big\} \eqexcl \varepsilon
+\end{equation}
+\begin{equation}
+	\begin{array}{rl}
+	\exp\big\{ -2 \eta^2 p \big\} & = \varepsilon \\
+	-2 \eta^2 p & = \ln \varepsilon \\
+	\eta & = \sqrt{-\frac{\ln \varepsilon}{2p}} \\
+	\end{array}
+\end{equation}
+with probability higher than $1 - \varepsilon$ we obtain
+\begin{equation} \label{main2}
+	R_{ \mathrm{ emp } ( \vec{w}_0 ) }^{ (P) } -
+	R_{ ( \vec{w}_0 ) }
+		< \sqrt{-\frac{\ln \varepsilon}{2p}} 
+\end{equation}
+Combining (\ref{main1}) and (\ref{main2}) we obtain with a probability larger than $1 - 2\varepsilon$ for the difference $\Delta^{(p)}$ between the generalization errors of the optimal $(\vec{w}_0)$ and the selected $(\vec{w}_p)$ model:
+\begin{equation}
+	\begin{array}{ll}
+		\Delta^{(p)}
+		& \coloneqq R_{ ( \vec{w}_p ) } -
+			R_{ ( \vec{w}_0 ) } \\\\
+		& < R_{ \mathrm{ emp } 
+			( \vec{w}_p ) }^{ (P) } 
+		+ \Bigg\{ \frac{ G_{ (2p) }^\Lambda 
+			-\ln \frac{\varepsilon}{4} }{p}
+		\Bigg\}^{ \frac{1}{2} } + \frac{1}{p}
+			R_{ \mathrm{ emp } 
+			( \vec{w}_0 ) }^{ (P) } 
+		+ \Big\{ -\frac{\ln \varepsilon}{2p} \Big\}^{\frac{1}{2}} \\\\
+		& < \Bigg\{ \frac{ G_{ (2p) }^\Lambda 
+			-\ln \frac{\varepsilon}{4} }{p}
+		\Bigg\}^{ \frac{1}{2} } + \frac{1}{p}
+		+ \Big\{ -\frac{\ln \varepsilon}{2p} \Big\}^{\frac{1}{2}}
+	\end{array}
+\end{equation}
+changing $2 \varepsilon \rightarrow \varepsilon$ we then obtain
+\begin{equation}
+	P\Bigg\{ R_{ ( \vec{w}_p ) } - 
+		R_{ ( \vec{w}_0 ) } >
+		\Bigg\{ \frac{ G_{ (2p) }^\Lambda 
+			-\ln \frac{\varepsilon}{8} }{p}
+		\Bigg\}^{ \frac{1}{2} } + \frac{1}{p}
+		+ \Bigg\{ -\frac{\ln \frac{\varepsilon}{2}}{2p}
+		\Bigg\}
+	\Bigg\} < \varepsilon
+\end{equation}

@@ -1,0 +1,153 @@
+\subsection{Proof of the Key Theorem of Statistical Learning Theory}
+{\bf Strict consistency $\rightarrow$ uniform convergence}
+\\\\
+\noindent Let $a_1, \ldots, a_n$ be a finite sequence with
+\begin{equation} \label{1}
+	a_1 	= a, |a_{i+1}-a_i|< \frac{\eta}{2}, a_n 
+		= \mathcal A
+\end{equation}
+and A the event
+\[ \sup_{ \vec{w} \in \Lambda }
+	(R_{ (\vec{w}) } - R_{ \mathrm{emp}(\vec{w}) }) > \eta 
+\]
+We need to show that $\lim_{p \rightarrow \infty} P(A) = 0$ (uniform convergence).\\
+Let A occur, then there will be a $\vec{w}^* \in \Lambda$ with
+\begin{equation} \label{2}
+	R_{ (\vec{w}^*) } > R_{ \mathrm{emp}(\vec{w}^*) } + \eta
+\end{equation}
+According to (\ref{1}) there is a $k^*$ so that $\vec{w}^* \in \Lambda_{(a_{k^*})}$ and $a_{k^*} < R_{ (\vec{w}^*) } -\frac{\eta}{2}$ holds. As $a_{k^*}$ is the lower boundary of $R_{ (\vec{w}) }$ and $\vec{w}^* \in \Lambda$ the following holds:
+\begin{equation} \label{3}
+	\inf_{ \vec{w} \in \Lambda_{ (a_{k^*}) } } R_{ (\vec{w}) } 
+	\geq R_{ (\vec{w}^*) } -\frac{\eta}{2}	
+\end{equation}
+Therefore:
+\begin{equation} \label{4}
+	\inf_{ \vec{w} \in \Lambda_{ (a_{k^*}) } } 
+	R_{ (\vec{w}) } -\frac{\eta}{2}
+	\geq R_{ (\vec{w}^*) } -\eta
+	> R_{ \mathrm{emp}(\vec{w}) }^{(P)}
+	\geq \inf_{ \vec{w} \in \Lambda_{ k^* } } 
+		R_{ \mathrm{emp}( \vec{w}) }^{(P)}
+\end{equation}
+Let $T_k$ be the occurrence,
+\begin{equation} \label{5}
+	\inf_{ \vec{w} \in \Lambda_{ (a_{k}) } } 
+		R_{ (\vec{w}) } 
+		-\frac{\eta}{2}
+	\geq \inf_{ \vec{w} \in \Lambda_{ (a_{k}) } }
+		R_{ \mathrm{emp}(\vec{w}) }^{(P)}
+\end{equation}
+and $T$ the occurrence
+\begin{equation} \label{6}
+	T = \cup_{k=1}^n T_k
+\end{equation}
+If $A$ occurs, $T_{k^*}$ and $T$ will also occur. (\ref{6}) is the enclosing occurence for $T_{k^*}$, therefore $P_{(A)} \leq P_{(T)}$ holds.
+According to the definition of the absolute convergence
+\begin{equation} \label{7}
+	P_{ (T_k) } \xrightarrow[P \rightarrow \infty]{} 0 
+\end{equation}
+\begin{equation}\label{8}
+	P_{ (A) } \xrightarrow[P \rightarrow \infty]{} 0 
+\end{equation}
+follow.
+\\\\
+\noindent{\bf Uniform convergence $\rightarrow$ strict consistency}
+\\\\
+Let $A$ be the event 
+\begin{equation} \label{9}
+	\Big| \inf_{ \vec{w} \in \Lambda_{ (c) } }
+		R_{ \mathrm{emp}(\vec{w}) }^{(P)}
+ 		- \inf_{ \vec{w} \in \Lambda_{ (c) } }
+		R_{ (\vec{w}) }
+	\Big| > \eta
+\end{equation}
+We need to show that $P_{ (T_k) } \xrightarrow[P \rightarrow \infty]{} 0$ holds.
+Let $A_1$ and $A_2$ be two events with the following properties:
+\begin{equation} \label{10}
+	A_1 = 	\Big\{ Z: \inf_{ \vec{w} \in \Lambda_{ (c) } } 
+			R_{ (\vec{w}) } + \eta
+		       < \inf_{ \vec{w} \in \Lambda_{ (c) } } 
+			R_{ \mathrm{emp}(\vec{w}) }^{(P)}
+		\Big\} 
+\end{equation}
+\begin{equation} \label{11}
+	A_2 = 	\Big\{ Z: \inf_{ \vec{w} \in \Lambda_{ (c) } } 
+			R_{ (\vec{w}) } - \eta
+		       < \inf_{ \vec{w} \in \Lambda_{ (c) } } 
+			R_{ \mathrm{emp}(\vec{w}) }^{(P)}
+		\Big\} 
+\end{equation}
+and also $A = A_1 \cup A_2$ and  $P_{(A)} = P_{(A_1)} + P_{(A_2)}$. \\\\
+Assumption: $A_1$ occurs.\\
+Choose $\vec{w}^*$ so that the following condition can be fulfilled:
+\begin{equation} \label{12}
+	R_{ (\vec{w}) } < 
+		\inf_{ \vec{w} \in \Lambda_{ (c) } } 
+		R_{ (\vec{w}) } + \frac{\eta}{2}
+\end{equation}
+Then
+\begin{equation} \label{13}
+	R_{(\vec{w})} 
+	< \inf_{\vec{w} \in \Lambda_{(c)}} R_{(\vec{w})} + \frac{\eta}{2}
+	< \inf_{\vec{w} \in \Lambda_{(c)}} R_{\mathrm{emp}(\vec{w})}^{(P)} -
+		\frac{\eta}{2}
+	\leq \inf_{\vec{w} \in \Lambda_{(c)}} 
+		R_{\mathrm{emp}(\vec{w}^*)}^{(P)} -
+		\frac{\eta}{2}
+\end{equation}
+holds, and therefore
+\begin{equation} \label{14}
+	P_{(A_1)} < P\Big\{
+		R_{(\vec{w}^*)}- R_{\mathrm{emp}(\vec{w})}^{(P)}
+	\leq -\frac{\eta}{2} \Big\}
+\end{equation}
+\begin{equation} \label{15}
+	P_{(A_1)} = 
+		P\Big\{ R_{\mathrm{emp}(\vec{w})}^{(P)} - 
+			R_{(\vec{w}^*)}
+			\geq \frac{\eta}{2} 
+		\Big\}
+\end{equation}
+According to the Hoeffding inequality 
+\begin{equation} \label{16}
+	P\Big\{ R_{\mathrm{emp}(\vec{w})}^{(P)} - 
+		R_{(\vec{w}^*)}
+		\geq \frac{\eta}{2} 
+		\Big\}
+	\xrightarrow[P \rightarrow \infty]{} 0
+\end{equation}
+can be concluded. Therefore $P_{ (A_1) } \xrightarrow[P \rightarrow \infty]{} 0$ does also hold.\\\\
+Assumption: $A_2$ occurs.
+\begin{equation} \label{17}
+	\inf_{ \vec{w} \in \Lambda_{ (c) } } R_{ (\vec{w}^*) } 
+	> \inf_{ \vec{w} \in \Lambda_{ (c) } } 
+			R_{ \mathrm{emp}(\vec{w}^*) }^{(P)} + \eta
+	> \inf_{ \vec{w} \in \Lambda_{ (c) } } 
+			R_{ \mathrm{emp}(\vec{w}^*) }^{(P)} + 
+			\frac{\eta}{2}
+\end{equation}
+Then a $\vec{w}^* \in \Lambda_{(c)}$ can be found that fulfills
+\begin{equation} \label{18}
+	R_{\mathrm{emp}(\vec{w}^*)}^{(P)} + \frac{\eta}{2}
+	< 	\inf_{\vec{w} \in \Lambda_{(c)}} R_{(\vec{w})}
+	\leq 	R_{(\vec{w}^*)}
+\end{equation}
+and further
+\begin{equation} \label{19}
+	P_{(A_2)} < P\Big\{
+		R_{(\vec{w}^*)}- R_{\mathrm{emp}(\vec{w})}^{(P)}
+	\geq \frac{\eta}{2} \Big\}
+\end{equation}
+\begin{equation} \label{20}
+	P_{(A_2)} < P\Big\{
+		\sup_{ \vec{w} \in \Lambda } 
+			\Big( R_{(\vec{w})} 
+			- R_{\mathrm{emp}(\vec{w})}^{(P)}
+			\Big)
+			\geq \frac{\eta}{2} \Big\}
+\end{equation}
+Therefore
+\begin{equation} \label{21}
+	P_{ (A) } = P_{ (A) } + P_{ (A) } 
+		\xrightarrow[P \rightarrow \infty]{} \sigma
+\end{equation}

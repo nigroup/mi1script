@@ -1,0 +1,43 @@
+% -----------------------------------------------------------------------------
+% Machine Intelligence I - the script.
+% 
+% this update includes comments from S. Gabler and various other students
+% taking this course
+% -----------------------------------------------------------------------------
+\title{Machine Intelligence I\\ \rule{0.75\textwidth}{2pt}}
+\author{Prof. Dr. Klaus Obermayer}
+	
+\input{header}
+\usepackage[backend=biber,style=authoryear,natbib=true, url=false, doi=true, firstinits=true, eprint=false]{biblatex}
+\addbibresource{referencesMI1.bib}
+
+
+% -----------------------------------------------------------------------------
+\begin{document}
+\maketitle
+\noindent \textcolor{red}{\underline{Disclaimer:} The lecture has been restructured in the previous terms (WiSe 2016/17 as well as WiSe 2017/18) and several new topics were added, too. Many of these changes are so far only reflected in the lecture slides but not yet in these lecture notes which are thus outdated. Although we plan to complete the lecture notes soon, it is unlikely that we reach this goal until the end of the term. Therefore, it is strongly recommended to make hand-written notes within the lectures to complement the information of this script. We apologize for the inconvenience.}
+\newpage
+\tableofcontents
+\newpage
+
+% ----------------------  Main Text  -----------------------------------------
+\include{section1} %% Artificial Neural Networks
+\include{section2} %% Learning Theory & SVMs
+\include{section3} %% Probabilistic Methods I
+\include{section4} %% Reinforcement Learning
+
+% % ------------------- Supplementary Material ----------------------------
+\newpage
+\section{Supplementary Material}
+\setcounter{equation}{0}
+\include{./proofs/erm_consistency}
+\include{./proofs/absolute_consistency}
+\include{./proofs/number_linearly_separable_assignments}
+\include{./proofs/svm_inequality}
+\include{./proofs/deviations_from_optimal_model}
+\include{./proofs/dual_problem_c-svms}
+\include{./proofs/lagrange_parameter_and_empirical_error}
+\include{./proofs/probability_distribution}
+
+\printbibliography
+\end{document}

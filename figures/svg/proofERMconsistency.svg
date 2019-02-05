@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.42"
+   sodipodi:docbase="/home/schmu20mol/TU-Berlin/job/proofs/erm_consistency/figures/svg"
+   sodipodi:docname="fig1.svg"
+   inkscape:export-filename="/home/schmu20mol/TU-Berlin/job/proofs/erm_consistency/figures/eps/fig1.png"
+   inkscape:export-xdpi="150.00000"
+   inkscape:export-ydpi="150.00000">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Mend"
+       style="overflow:visible;">
+      <path
+         sodipodi:nodetypes="cccc"
+         id="path2873"
+         style="font-size:12.0;fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.6) rotate(180) translate(-5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleInL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleInL"
+       style="overflow:visible">
+      <path
+         sodipodi:nodetypes="cccc"
+         id="path2820"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(-0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Mstart"
+       style="overflow:visible">
+      <path
+         sodipodi:nodetypes="cccc"
+         id="path2864"
+         style="font-size:12.0;fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.6) translate(-5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lstart"
+       style="overflow:visible">
+      <path
+         sodipodi:nodetypes="cccc"
+         id="path2867"
+         style="font-size:12.0;fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) translate(-5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;">
+      <path
+         sodipodi:nodetypes="cccc"
+         id="path2876"
+         style="font-size:12.0;fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(-5,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.0733211"
+     inkscape:cx="388.12368"
+     inkscape:cy="582.18551"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1400"
+     inkscape:window-height="976"
+     inkscape:window-x="0"
+     inkscape:window-y="26" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:2.2959611;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000;marker-end:none;marker-start:url(#Arrow2Mstart)"
+       d="M 622.84257,585.58827 C 95.902346,585.58827 92.469506,585.58827 92.469506,585.58827 L 92.469506,585.58827 L 94.185926,584.28584"
+       id="path2035" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       d="M 126.58057,192.66914 C 126.58057,192.66914 284.80628,982.47916 615.76173,186.07640"
+       id="path3658"
+       sodipodi:nodetypes="cs" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;marker-end:url(#Arrow2Lend)"
+       d="M 339.50969,542.50202 C 339.50969,579.43114 339.50969,579.43114 339.50969,579.43114"
+       id="path4424" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-opacity:1.0000000"
+       d="M 199.53640,412.44134 C 199.53640,578.62240 199.53640,578.62240 199.53640,578.62240"
+       id="path5964" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-opacity:1.0000000"
+       d="M 500.92571,413.54790 C 500.92571,579.72896 500.92571,579.72896 500.92571,579.72896"
+       id="path6722" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot12774"
+       transform="matrix(1.357537,0.000000,0.000000,1.000000,-72.58344,-44.67233)"><flowRegion
+         id="flowRegion12776"><rect
+           id="rect12778"
+           width="77.432037"
+           height="14.295145"
+           x="122.70000"
+           y="622.31659" /></flowRegion><flowPara
+         id="flowPara12780">XXXXXXXXXX</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot12782"
+       transform="matrix(1.357537,0.000000,0.000000,1.000000,338.9314,-44.51202)"><flowRegion
+         id="flowRegion12784"><rect
+           id="rect12786"
+           width="77.432037"
+           height="14.295145"
+           x="122.70000"
+           y="622.31659" /></flowRegion><flowPara
+         id="flowPara12788">XXXXXXXXXX</flowPara></flowRoot>    <image
+       id="image12938"
+       height="41.589481"
+       width="122.57954"
+       sodipodi:absref="/home/schmu20mol/TU-Berlin/job/proofs/erm_consistency/figures/to_png/1.png"
+       xlink:href="/home/schmu20mol/TU-Berlin/job/proofs/erm_consistency/figures/to_png/1.png"
+       x="-24.062044"
+       y="391.69876" />
+    <image
+       id="image12978"
+       height="46.917683"
+       width="117.29421"
+       sodipodi:absref="/home/schmu20mol/TU-Berlin/job/proofs/erm_consistency/figures/to_png/2.png"
+       xlink:href="/home/schmu20mol/TU-Berlin/job/proofs/erm_consistency/figures/to_png/2.png"
+       x="-23.589365"
+       y="458.23965" />
+    <image
+       id="image13018"
+       height="46.267975"
+       width="68.396133"
+       sodipodi:absref="/home/schmu20mol/TU-Berlin/job/proofs/erm_consistency/figures/to_png/3.png"
+       xlink:href="/home/schmu20mol/TU-Berlin/job/proofs/erm_consistency/figures/to_png/3.png"
+       x="28.186434"
+       y="521.76935" />
+    <image
+       id="image13058"
+       height="39.062691"
+       width="41.232841"
+       sodipodi:absref="/home/schmu20mol/TU-Berlin/job/proofs/erm_consistency/figures/to_png/4.png"
+       xlink:href="/home/schmu20mol/TU-Berlin/job/proofs/erm_consistency/figures/to_png/4.png"
+       x="331.29123"
+       y="588.10345" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.0000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:4.0000000,4.0000000;stroke-opacity:1.0000000;stroke-dashoffset:0.0000000"
+       d="M 92.956274,542.11949 C 339.47186,542.11949 339.47186,542.11949 339.47186,542.11949"
+       id="path5202" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.0000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:3.0000000,3.0000000;stroke-opacity:1.0000000;stroke-dashoffset:0.0000000"
+       d="M 92.176500,480.55639 C 599.35114,480.55639 599.35114,480.55639 599.35114,480.55639"
+       id="path5960" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.0000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:3.0000000,3.0000000;stroke-opacity:1.0000000;stroke-dashoffset:0.0000000"
+       d="M 92.174624,413.25008 C 598.16174,413.25008 598.16174,413.25008 598.16174,413.25008"
+       id="path5962" />
+    <image
+       id="image13098"
+       height="41.355942"
+       width="38.923244"
+       sodipodi:absref="/home/schmu20mol/TU-Berlin/job/proofs/erm_consistency/figures/to_png/5.png"
+       xlink:href="/home/schmu20mol/TU-Berlin/job/proofs/erm_consistency/figures/to_png/5.png"
+       x="75.839355"
+       y="142.41199" />
+    <image
+       id="image13138"
+       height="32.038021"
+       width="32.038021"
+       sodipodi:absref="/home/schmu20mol/TU-Berlin/job/proofs/erm_consistency/figures/to_png/6.png"
+       xlink:href="/home/schmu20mol/TU-Berlin/job/proofs/erm_consistency/figures/to_png/6.png"
+       x="636.64771"
+       y="570.18542" />
+    <image
+       id="image13178"
+       height="65.264526"
+       width="143.58195"
+       sodipodi:absref="/home/schmu20mol/TU-Berlin/job/proofs/erm_consistency/figures/to_png/7.png"
+       xlink:href="/home/schmu20mol/TU-Berlin/job/proofs/erm_consistency/figures/to_png/7.png"
+       x="281.45834"
+       y="643.93427" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.3714648px;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Lstart);stroke-opacity:1.0000000"
+       d="M 148.47054,596.32300 L 352.39724,660.13239"
+       id="path13183" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.2769924;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Lstart);marker-end:none;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       d="M 555.63165,599.27547 L 353.19238,659.14990"
+       id="path13185" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:2.0000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;stroke-miterlimit:4.0000000;stroke-dasharray:none;marker-start:url(#Arrow2Mstart)"
+       d="M 92.472420,183.64241 C 92.472420,583.48794 92.472420,586.09280 92.472420,586.09280 L 92.472420,586.09280 L 91.169991,584.79037"
+       id="path1306" />
+  </g>
+</svg>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg20827"
+   sodipodi:version="0.32"
+   inkscape:version="0.44"
+   sodipodi:docbase="/home/schmu20mol/TU-Berlin/job/script/MI1/figures/svg"
+   sodipodi:docname="section1_fig36.svg">
+  <defs
+     id="defs20829">
+    <marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Send"
+       style="overflow:visible;">
+      <path
+         id="path5450"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.2) rotate(180) translate(6,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;">
+      <path
+         id="path5456"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <linearGradient
+       id="linearGradient22571">
+      <stop
+         style="stop-color:black;stop-opacity:1;"
+         offset="0"
+         id="stop22573" />
+      <stop
+         style="stop-color:black;stop-opacity:0;"
+         offset="1"
+         id="stop22575" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient22571"
+       id="linearGradient22563"
+       x1="48.37941"
+       y1="42.348995"
+       x2="88.095779"
+       y2="42.348995"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.0663097"
+     inkscape:cx="309.13372"
+     inkscape:cy="874.00755"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1398"
+     inkscape:window-height="975"
+     inkscape:window-x="0"
+     inkscape:window-y="25" />
+  <metadata
+     id="metadata20832">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g20850"
+       transform="translate(-150,-3.469284e-5)">
+      <rect
+         y="79.542557"
+         x="253.5831"
+         height="21.774763"
+         width="274.26935"
+         id="rect30123"
+         style="fill:none;fill-opacity:1;stroke:black;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         id="path30125"
+         d="M 285.06421,79.07927 C 285.06421,101.31732 285.06421,101.31732 285.06421,101.31732"
+         style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="path31012"
+         d="M 311.4719,78.61598 C 311.4719,100.85403 311.4719,100.85403 311.4719,100.85403"
+         style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="path31014"
+         d="M 337.4163,79.83622 C 337.4163,102.07427 337.4163,102.07427 337.4163,102.07427"
+         style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="path31018"
+         d="M 417.00145,79.2261 C 417.00145,101.46415 417.00145,101.46415 417.00145,101.46415"
+         style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="path31020"
+         d="M 500.22452,79.68939 C 500.22452,101.92744 500.22452,101.92744 500.22452,101.92744"
+         style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="path31929"
+         d="M 446.6914,75.00293 C 446.6914,104.46708 446.6914,104.46708 446.6914,104.46708"
+         style="fill:white;fill-rule:evenodd;stroke:white;stroke-width:2.30212307;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="path31931"
+         d="M 471.09148,75.00293 C 471.09148,104.46707 471.09148,104.46707 471.09148,104.46707"
+         style="fill:white;fill-rule:evenodd;stroke:white;stroke-width:2.30212307;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="path31933"
+         d="M 483.29152,75.00293 C 483.29152,104.46707 483.29152,104.46707 483.29152,104.46707"
+         style="fill:white;fill-rule:evenodd;stroke:white;stroke-width:2.30212307;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="path31935"
+         d="M 458.89144,75.00293 C 458.89144,104.46708 458.89144,104.46708 458.89144,104.46708"
+         style="fill:white;fill-rule:evenodd;stroke:white;stroke-width:2.30212307;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="path20846"
+         d="M 363.93384,78.657517 C 363.93384,100.89557 363.93384,100.89557 363.93384,100.89557"
+         style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="path20848"
+         d="M 391.90434,79.205654 C 391.90434,101.4437 391.90434,101.4437 391.90434,101.4437"
+         style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <path
+       style="font-size:63.74376297px;font-style:normal;font-weight:normal;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       d="M 104.54442,101.29322 C 102.08439,106.05865 115.14087,111.40324 137.53191,111.06239 C 161.91947,112.24123 194.80919,108.94471 214.69648,113.47826 C 220.21968,115.47567 221.09362,116.75217 212.14849,114.6502 C 180.89575,110.35508 137.86113,116.23197 110.07242,110.34566 C 104.60003,107.77427 100.55631,103.37677 104.54442,101.29322 z M 228.5632,123.43959 C 227.81927,123.48415 228.79161,122.89703 228.5632,123.43959 z M 238.20653,115.50034 C 246.48981,108.64397 287.31358,112.1168 309.00191,111.20965 C 331.42964,112.17567 353.02927,108.34947 349.21567,102.78193 C 351.18017,99.05152 352.52491,106.94057 349.2107,108.41296 C 341.45445,115.55194 298.47238,112.23922 275.90864,113.07117 C 262.23848,113.04534 246.19369,113.48928 237.58968,116.23745 L 238.20653,115.50034 z "
+       id="text15618" />
+    <g
+       id="g22677"
+       transform="matrix(0.850894,0,0,0.979195,263.2366,1.645924)">
+      <path
+         id="path22585"
+         d="M 111.30955,101.87541 L 134.05542,86.38886"
+         style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <g
+         id="g22603">
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 104.05023,100.9075 L 134.05542,81.06536"
+           id="path22577" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 103.56628,96.067952 L 126.31214,81.06536"
+           id="path22579" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 103.56628,91.712361 L 121.4726,80.097451"
+           id="path22581" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 103.08232,85.904906 L 112.76141,79.613496"
+           id="path22583" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 120.50469,100.9075 L 134.53937,91.228406"
+           id="path22587" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 128.24796,100.42354 L 134.53937,95.583997"
+           id="path22589" />
+      </g>
+    </g>
+    <image
+       y="45.534969"
+       x="220.62538"
+       id="image2356"
+       height="14.394275"
+       width="70.172089"
+       sodipodi:absref="/home/schmu20mol/TU-Berlin/job/script/MI1/figures/png/section1_fig34_00.png"
+       xlink:href="/home/schmu20mol/TU-Berlin/job/script/MI1/figures/png/section1_fig34_00.png" />
+    <image
+       y="120.59179"
+       x="134.04047"
+       id="image4313"
+       height="14.822886"
+       width="187.50951"
+       sodipodi:absref="/home/schmu20mol/TU-Berlin/job/script/MI1/figures/png/section1_fig35_00.png"
+       xlink:href="/home/schmu20mol/TU-Berlin/job/script/MI1/figures/png/section1_fig35_00.png" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:1,1;stroke-dashoffset:0;marker-end:url(#Arrow1Mend)"
+       d="M 292.30855,54.931836 C 358.61033,53.963927 364.90174,78.161655 364.90174,78.161655"
+       id="path4415" />
+  </g>
+</svg>
