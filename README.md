@@ -19,11 +19,13 @@ Ubuntu:
 ## Generating the pdf ##
 
 Texmaker
+
    Tools > Quick Build
    OR
    Tools > PdfLaTeX + Tools > View PDF
 
 Unix
+
    cd ./latex
    pdflatex -synctex=1 -interaction=nonstopmode mi1.tex
 
